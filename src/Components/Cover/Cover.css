@@ -2,3 +2,22 @@
     min-height: 91.3vh;
     background-color: aquamarine;
 }
+.products {
+    min-height: 100vh;
+    background-color: skyblue;
+}
+
+.reviews {
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+.faqs {
+    min-height: 100vh;
+    background-color: skyblue;
+}
+
+.info {
+    min-height: 100vh;
+    background-color: aquamarine;
+}
