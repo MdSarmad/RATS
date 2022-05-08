@@ -1,0 +1,45 @@
+.section-a3-heading{
+    padding: 3% 0%;
+    margin: 0;
+    font-size: 38px;
+    letter-spacing:2px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.section-a3-reviews {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review{
+    width: 30vw;
+    height: 70vh;
+    background-color: white;
+}
+
+.review-logo {
+    width: 22vw;
+    height: 18vw;
+    border-radius: 50%;
+    margin-left: 4vw;
+    margin-top: 2%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.review-text{
+    width: 24vw;
+    margin-left: 3vw;
+    margin-top: 4%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.review-reviewer{
+    margin-top: 4%;
+    font-size: 24px;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.section-a4-heading{
+    padding: 3% 0%;
+    margin: 0;
+    font-size: 38px;
+    letter-spacing:2px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.faq{
+    width: 60vw;
+    height: 8vh;
+    background-color: white;
+    margin-bottom: 3%;
+    margin-left: 20vw;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
