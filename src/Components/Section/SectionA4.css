@@ -11,7 +11,7 @@
 .faq {
     width: 60vw;
     height: 8vh;
-    background-color: white;
+    background-color: #DBEEF6;
     margin-bottom: 3%;
     margin-left: 20vw;
     font-size: 17px;
@@ -22,4 +22,8 @@
     color: #5c5c5c;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
+}
+
+.faq:hover {
+    background-color: #add8e6;
 }
