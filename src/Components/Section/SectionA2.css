@@ -14,17 +14,39 @@
     justify-content: space-around;
 }
 
-.tech {
+.frontend-tech {
     width: 30vw;
     height: 70vh;
-    background-color: #F4EDE9;
+    background-color: #add8e6;
 }
 
-.tech-logo {
+.backend-tech {
+    width: 30vw;
+    height: 70vh;
+    background-color: #add8e6;
+}
+
+.full-stack-tech {
+    width: 30vw;
+    height: 70vh;
+    background-color: #add8e6;
+}
+
+.frontend-tech:hover,
+.backend-tech:hover,
+.full-stack-tech:hover {
+    background-color: #DBEEF6;
+}
+
+.tech-logo,
+.frontend-img,
+.backend-img,
+.fullstack-img {
     background-color: white;
     width: 26vw;
     height: 30vh;
     margin: 10px 0 0 10px;
+    object-fit: fill;
 }
 
 .tech-text {

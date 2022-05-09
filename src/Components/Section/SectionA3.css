@@ -21,6 +21,12 @@
 
 }
 
+.review:hover {
+    background-color: #ebebeb;
+
+}
+
+
 .review-logo {
     width: 22vw;
     height: 18vw;
