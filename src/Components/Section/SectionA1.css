@@ -1,39 +1,45 @@
-.section-a1{
+.section-a1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 91.3vh;
 }
 
-.section-a1-text{
+.section-a1-text {
     /* margin-top: -15%; */
     margin-left: 3%;
     box-sizing: border-box;
     width: 45%;
 }
 
-.section-a1-title, .section-a1-subTitle, .section-a1-para {
+.section-a1-title,
+.section-a1-subTitle,
+.section-a1-para {
     margin: 0;
 }
 
-.section-a1-title{
+.section-a1-title {
     font-size: 82px;
     box-sizing: border-box;
+    color: #1F75FE;
+
 }
 
 .section-a1-subTitle {
     font-size: 38px;
     margin-top: 1%;
     box-sizing: border-box;
+    color: #575757;
 }
 
 .section-a1-para {
     font-size: 28px;
     margin-top: 3%;
     box-sizing: border-box;
+    color: #808080;
 }
 
-.section-a1-pic{
+.section-a1-pic {
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
@@ -41,4 +47,3 @@
     margin-right: 3%;
     box-sizing: border-box;
 }
-

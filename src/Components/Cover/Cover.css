@@ -1,23 +1,24 @@
 .cover {
     min-height: 91.3vh;
-    background-color: aquamarine;
+    background-color: #DBEEF6;
 }
+
 .products {
     min-height: 100vh;
-    background-color: skyblue;
+    background-color: white;
 }
 
 .reviews {
     min-height: 100vh;
-    background-color: aquamarine;
+    background-color: #F4EDE9;
 }
 
 .faqs {
     min-height: 100vh;
-    background-color: skyblue;
+    background-color: #DBEEF6;
 }
 
 .info {
     min-height: 100vh;
-    background-color: aquamarine;
+    background-color: #F4EDE9;
 }

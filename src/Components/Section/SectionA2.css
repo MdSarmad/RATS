@@ -1,37 +1,38 @@
-.section-a2-heading{
+.section-a2-heading {
     padding: 3% 0%;
     margin: 0;
     font-size: 38px;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
 }
 
-.tech-section{
+.tech-section {
     display: flex;
     justify-content: space-around;
 }
 
-.tech{
+.tech {
     width: 30vw;
     height: 70vh;
-    background-color: antiquewhite;
+    background-color: #F4EDE9;
 }
 
-.tech-logo{
+.tech-logo {
     background-color: white;
     width: 26vw;
     height: 30vh;
     margin: 10px 0 0 10px;
 }
 
-.tech-text{
+.tech-text {
     position: relative;
     display: flex;
     justify-content: center;
     margin-top: 15vh;
-    font-size: 44px;
+    font-size: 35px;
     font-weight: bold;
     letter-spacing: 2px;
+    color: #575757;
 }
