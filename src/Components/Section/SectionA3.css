@@ -1,11 +1,12 @@
 .section-a3-heading {
     padding: 3% 0%;
     margin: 0;
-    font-size: 38px;
+    font-size: 35px;
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .section-a3-reviews {
@@ -17,6 +18,7 @@
     width: 30vw;
     height: 70vh;
     background-color: white;
+
 }
 
 .review-logo {
@@ -35,11 +37,16 @@
     margin-top: 4%;
     text-align: center;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 17px;
+    font-style: unset;
+    color: #808080;
 }
 
 .review-reviewer {
     margin-top: 4%;
     font-size: 24px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #575757;
 }
