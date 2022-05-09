@@ -5,6 +5,7 @@
     letter-spacing: 2px;
     text-align: center;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .faq {
@@ -13,10 +14,12 @@
     background-color: white;
     margin-bottom: 3%;
     margin-left: 20vw;
-    font-size: 18px;
+    font-size: 17px;
     display: flex;
     align-items: center;
     padding-left: 2%;
     box-sizing: border-box;
     color: #5c5c5c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
