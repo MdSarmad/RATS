@@ -1,0 +1,18 @@
+.section-a5 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 6%;
+}
+.categories-one, .categories-two, .categories-three, .categories-four {
+    font: 1em sans-serif;
+    padding: 20px;
+    color: aqua;
+}
+
+.categories1, .categories2, .categories3, .categories4 {
+    margin: 10px;
+    padding: 7px;
+    font-size: medium;
+    color: rgb(233, 223, 223);
+}

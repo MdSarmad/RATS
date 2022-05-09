@@ -18,7 +18,15 @@
     background-color: white;
 }
 
-.info {
-    min-height: 100vh;
-    background-color: #F4EDE9;
+.footer {
+    min-height: 50vh;
+    background-color: #19191bfa;
+    color: azure;
+
+}
+.copy {
+    text-align: center;
+    padding: 10px;
+    background-color: #1d1c1c;
+    color: azure;
 }

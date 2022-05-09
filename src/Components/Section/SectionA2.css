@@ -42,21 +42,37 @@
 .frontend-img,
 .backend-img,
 .fullstack-img {
-    background-color: white;
     width: 26vw;
     height: 30vh;
     margin: 10px 0 0 10px;
-    object-fit: fill;
 }
 
 .tech-text {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 4vh;
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
     color: #575757;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tech-button {
+    display: flex;
+    justify-content: center;
+}
+.button{
+    padding: 13px;
+    background-color:#2177c7;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button:hover {
+    background-color: #072038;
+    color: #DBEEF6;
+}
+.text{
+    padding: 15px;
+    font-family: 'Arial';
 }
