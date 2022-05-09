@@ -1,13 +1,13 @@
-.section-a4-heading{
+.section-a4-heading {
     padding: 3% 0%;
     margin: 0;
     font-size: 38px;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     text-align: center;
     box-sizing: border-box;
 }
 
-.faq{
+.faq {
     width: 60vw;
     height: 8vh;
     background-color: white;
@@ -18,4 +18,5 @@
     align-items: center;
     padding-left: 2%;
     box-sizing: border-box;
+    color: #5c5c5c;
 }
