@@ -1,0 +1,200 @@
+.signupForm{
+    position: relative;
+    width: 30%;
+    background-color: white;
+    box-sizing: border-box;   
+}
+
+.signupformBody{
+    position: relative;
+    right: 25%;
+    left: 8%;
+    width: 340px;
+    height: 493px;
+}
+
+.signupformTitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.signupformSubTitle{
+    text-align: center;
+    margin: 5% 10% 5% 10%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a9abad;
+    box-sizing: border-box;
+}
+
+
+
+.signupformInput{
+    width: 100%;
+    height: 100%;
+}
+
+.signupformStyle{
+    width: 100%;
+}
+
+.emailBody , .firstNameBody,.lastNameBody,.passwordBody, .confirmPasswordBody,.contactNoBody {
+width: 100%;
+margin-top: 2%;
+box-sizing: border-box;
+color: #939393;
+}
+
+.FirstNameInput, .LastNameInput, .EmailAddressInput, .ContactNoInput,.ConfirmPasswordInput, .PasswordInput, .signupButton{
+    width: 100%;
+    height: 42px;
+    border-radius: 77px;
+    padding: 0 10%;
+    font-size: 14px;
+    border: 2px solid #e5e5e5;
+    margin-top: 10px;
+    /* background-color: #dbdbdb; */
+}
+
+.signupButton{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    background-color:#2916F5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 7%;
+}
+
+.signupButton:hover{
+    background-color: #0000A0;
+    cursor: pointer;
+}
+.haveAnAccountBody{
+    display: flex;
+}
+.haveAnAccountBody{
+    position: absolute;
+    text-align: center;
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    /* font: 1em sans-serif; */
+}
+.haveAnAccount:hover{
+    color: #16f5ba;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    signupForm{
+        width: 100%;
+        height: 478px;;
+        position: absolute;
+        top: 85%;
+        border-radius: 36px 36px 0px 0px;
+    }
+
+    .signupformBody{
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 80%;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .signupformstyleForm{
+        width: 80%;
+        height: 480px;;
+        position: absolute;
+        top: 540px;
+        border-radius: 36px 36px 0px 0px;
+    }
+
+    .signupformstyleformBody{
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+
+    .signupformstyleformTitle{
+        text-align: start;
+    }
+
+    .signupformstyleformSubTitle{
+        text-align: start;
+        margin: 3% 0 0 0;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .signupformstyleForm{
+        top: 300px;
+    }
+
+    .signupformstyleformSubTitle{
+        margin: 3% 0 0 0;
+    }
+
+    .signupformstyleButton{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .signupformstyleForm{
+        top: 300px;
+    }
+    .FirstNameInput, .LastNameInput, .EmailAddressInput, .ContactNoInput,.ConfirmPasswordInput, .PasswordInput, .signupButton{
+        margin-top: 5px;
+        height: 50px;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    .signupformstyleForm{
+        top: 300px;
+        padding-top: 5%;
+    }
+
+    .FirstNameInput, .LastNameInput, .EmailAddressInput, .ContactNoInput,.ConfirmPasswordInput, .PasswordInput, .signupButton{
+        margin-top: 5px;
+        height: 50px;
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    .signupformSubTitle{
+        margin: 3% 0 0 0;
+    }
+    .signupForm{
+        top: 300px;
+        padding-top: 5%;
+    }
+
+    .FirstNameInput, .LastNameInput, .EmailAddressInput, .ContactNoInput,.ConfirmPasswordInput, .PasswordInput, .signupButton{
+        margin-top: 5px;
+        height: 40px;
+        width: 50%;
+    }
+}

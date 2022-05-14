@@ -6,57 +6,57 @@ function SectionA5() {
         <div className='section-a5'>
 
             <div className='categories-one'>
-                Categories One 
+                RATS
                 <div className='categories1'>
-                categories1
+                    About US
                 </div>
                 <div className='categories2'>
-                categories2
+                    What we offers
                 </div>
                 <div className='categories3'>
-                categories3
+                    FAQ
                 </div>
             </div>
 
 
             <div className='categories-two'>
-                Categories Two 
+                More
                 <div className='categories1'>
-                categories1
+                    Privacy
                 </div>
                 <div className='categories2'>
-                categories2
+                    Help
                 </div>
                 <div className='categories3'>
-                categories3
+                    Terms
                 </div>
             </div>
 
-
+            {/* Put your linkedin account */}
             <div className='categories-three'>
-                Categories Three
+                Our Developer Team
                 <div className='categories1'>
-                categories1
+                    MD Sarmad
                 </div>
                 <div className='categories2'>
-                categories2
+                    Brijesh Yadav
                 </div>
                 <div className='categories3'>
-                categories3
+                    Nandini Ojha
                 </div>
             </div>
 
 
             <div className='categories-four'>
-                Categories Four
+                Contact With Us
                 <div className='categories1'>
-                categories1
+                    Facebook
                 </div>
                 <div className='categories2'>
-                categories2
+                    Instagram
                 </div>
                 <div className='categories3'>
-                categories3
+                    Twitter
                 </div>
             </div>
 

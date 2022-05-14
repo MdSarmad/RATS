@@ -23,7 +23,7 @@
 .navbar-right {
   display: flex;
   justify-content: space-between;
-  width: 30rem;
+  width: 35rem;
 }
 
 
@@ -33,6 +33,7 @@
   justify-content: center;
   align-items: center;
   width: 90px;
+  font-size:20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -57,3 +58,4 @@
   align-items: center;
   box-sizing: border-box;
 }
+

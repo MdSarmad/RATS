@@ -2,17 +2,18 @@
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
-    padding: 6%;
+    padding: 6.5%;
 }
 .categories-one, .categories-two, .categories-three, .categories-four {
-    font: 1em sans-serif;
+    font: 1.5em sans-serif;
     padding: 20px;
     color: aqua;
 }
-
+.categories1{
+    padding-top: 30px;
+}
 .categories1, .categories2, .categories3, .categories4 {
-    margin: 10px;
-    padding: 7px;
+    padding-bottom: 40px;
     font-size: medium;
     color: rgb(233, 223, 223);
 }

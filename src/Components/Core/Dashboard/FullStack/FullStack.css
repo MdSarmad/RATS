@@ -1,0 +1,70 @@
+.fullstackDashboard{
+    background-color: #add8e6;
+    height: 100vh;
+}
+
+
+.fullstackDashboardTitle{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 50px;
+}
+
+.fullstackDashboardContainer{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-gap: 20px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+.dashboard-fullstack-img{
+    width: 45vw;
+    border-radius: 50%;
+    margin-right: 3%;
+    box-sizing: border-box;
+    object-fit: cover;
+    height: 39vw;
+}
+.fullstackDashboardContent{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-gap: 20px;
+    margin-top: 20px;
+    /* background-color: #21f321; */
+    padding: 10px;
+}
+
+.markupLanguageSelect,.programmingSelect,.stylingSelect,.librarySelect{
+    padding: 20px;
+    border: none;
+}
+.markupLanguage,.stylingLanguage,.programmingLanguage,.library{
+    background-color: rgb(26, 212, 212);
+    height: 7.5vh;
+    width: 22vw; 
+    padding: 15px;
+    font-size: 30px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    border: none;
+}
+
+.fullstackDashboardAnswer{
+    padding: 25px;
+}
+.fullstackAnswer{
+    width: 45.3vw;
+    height: 40vh;
+    padding: 20px;
+    font: 1.2em sans-serif;
+    resize: none;
+    appearance: none;
+    outline: 0;
+}
+select {
+        display: block;
+        font-size: larger;
+        padding: 20px;
+        outline: 0;
+        overflow: hidden;
+}

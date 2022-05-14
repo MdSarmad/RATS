@@ -26,7 +26,8 @@
 }
 .copy {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #1d1c1c;
     color: azure;
+    font: 1em sans-serif;
 }

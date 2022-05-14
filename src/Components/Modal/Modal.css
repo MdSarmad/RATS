@@ -1,0 +1,12 @@
+.modal-body{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    z-index: 5;
+    position: absolute;
+    top: 53.8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+

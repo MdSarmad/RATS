@@ -4,6 +4,11 @@ import SectionA2 from '../Section/SectionA2';
 import SectionA3 from '../Section/SectionA3';
 import SectionA4 from '../Section/SectionA4';
 import SectionA5 from '../Section/SectionA5';
+
+import Frontend from '../Core/Dashboard/Frontend/Frontend';
+import Backend from '../Core/Dashboard/Backend/Backend';
+import FullStack from '../Core/Dashboard/FullStack/FullStack';
+
 import './Cover.css';
 const Cover = () => {
   return (
@@ -23,8 +28,17 @@ const Cover = () => {
       <div className='footer'>
         <SectionA5/>
       </div>
+      <div className='frontend'>
+        <Frontend />
+      </div>
+      <div className='backend'>
+        <Backend />
+      </div>
+      <div className='fullstack'>
+        <FullStack />
+      </div>
       <div className='copy'>
-         @copyright 2022
+        @copyright 2022 RATS . All rights reserved
       </div>
     </>
   )
