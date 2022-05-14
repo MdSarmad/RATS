@@ -108,7 +108,7 @@ function Frontend() {
               </div>
 
               <div className='frontendDashboardAnswer'>
-                <textarea placeholder='Answer' className='frontendAnswer' />
+                <div className='frontendAnswer' />
               </div>
 
             </div>

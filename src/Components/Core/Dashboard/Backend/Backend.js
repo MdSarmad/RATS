@@ -107,7 +107,7 @@ function Backend() {
                             </div>
 
                             <div className='backendDashboardAnswer'>
-                                <textarea placeholder='Answer' className='frontendAnswer' />
+                                <div className='backendAnswer' />
                             </div>
 
                         </div>

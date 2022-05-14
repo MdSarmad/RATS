@@ -108,7 +108,7 @@ function FullStack() {
                             </div>
 
                             <div className='fullstackDashboardAnswer'>
-                                <textarea placeholder='Answer' className='fullstackAnswer' />
+                                <div  className='fullstackAnswer' />
                             </div>
 
                         </div>

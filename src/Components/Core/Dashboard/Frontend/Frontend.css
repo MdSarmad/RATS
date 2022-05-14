@@ -78,6 +78,7 @@ select {
     width: 44.5vw;
     height: 30vh;
     padding: 20px;
+    background-color: antiquewhite;
     font: 1em sans-serif;
     resize: none;
     appearance: none;
