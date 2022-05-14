@@ -1,6 +1,5 @@
 .fullstackDashboard{
     background-color: #add8e6;
-    height: 100vh;
 }
 
 
@@ -19,12 +18,12 @@
     padding: 10px;
 }
 .dashboard-fullstack-img{
-    width: 45vw;
+    width: 40vw;
     border-radius: 50%;
     margin-right: 3%;
     box-sizing: border-box;
     object-fit: cover;
-    height: 39vw;
+    height: 35vw;
 }
 .fullstackDashboardContent{
     display: grid;
@@ -35,36 +34,53 @@
     padding: 10px;
 }
 
-.markupLanguageSelect,.programmingSelect,.stylingSelect,.librarySelect{
+.fullstackmarkupLanguageSelect,.fullstackprogrammingSelect,.fullstackstylingSelect,.fullstacklibrarySelect{
     padding: 20px;
     border: none;
 }
-.markupLanguage,.stylingLanguage,.programmingLanguage,.library{
+.fullstackmarkupLanguage,.fullstackstylingLanguage,.fullstackprogrammingLanguage,.fullstacklibrary{
     background-color: rgb(26, 212, 212);
-    height: 7.5vh;
+    height: 8vh;
     width: 22vw; 
     padding: 15px;
-    font-size: 30px; 
+    font-size: 15px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     border: none;
 }
+
 
 .fullstackDashboardAnswer{
     padding: 25px;
 }
 .fullstackAnswer{
-    width: 45.3vw;
-    height: 40vh;
+    width: 44.5vw;
+    height: 30vh;
     padding: 20px;
-    font: 1.2em sans-serif;
+    font: 1em sans-serif;
     resize: none;
     appearance: none;
     outline: 0;
 }
 select {
-        display: block;
-        font-size: larger;
-        padding: 20px;
-        outline: 0;
-        overflow: hidden;
+    display: block;
+    font-size: larger;
+    padding: 10px;
+    outline: 0;
+    overflow: hidden;
+}
+.gateTechStackBody{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.gateTechStackButton{
+    height: 5vh;
+    width: 10vw;
+    background-color: dodgerblue;
+    cursor: pointer;
+    border: none;
+}
+.gateTechStackButton:hover{
+    background-color: blue;
+    color: aliceblue;
 }

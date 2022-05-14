@@ -5,9 +5,9 @@ import SectionA3 from '../Section/SectionA3';
 import SectionA4 from '../Section/SectionA4';
 import SectionA5 from '../Section/SectionA5';
 
-import Frontend from '../Core/Dashboard/Frontend/Frontend';
-import Backend from '../Core/Dashboard/Backend/Backend';
-import FullStack from '../Core/Dashboard/FullStack/FullStack';
+// import Frontend from '../Core/Dashboard/Frontend/Frontend';
+// import Backend from '../Core/Dashboard/Backend/Backend';
+// import FullStack from '../Core/Dashboard/FullStack/FullStack';
 
 import './Cover.css';
 const Cover = () => {

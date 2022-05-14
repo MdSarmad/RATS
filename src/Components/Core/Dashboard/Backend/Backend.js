@@ -1,11 +1,10 @@
 import React from 'react'
 import "./Backend.css"
-import Navbar from '../../../Navbar/Navbar'
 import backendImg from '../../../../images/stack/fullstack2.png'
 function Backend() {
     return (
         <div>
-            <Navbar />
+
             <div className='backendDashboard'>
                 <div className='backendDashboardBody'>
                     <div class="backendDashboardTitle">MY BACKEND TECH STACK</div>
@@ -13,14 +12,14 @@ function Backend() {
                     <div className='backendDashboardContainer'>
                         <div className='backendDashboardLeftContainer'>
                             <div className='backendDashboardContent'>
-                                <div className='markupBody'>
+                                <div className='backendmarkupBody'>
 
-                                    <div className='markupLanguageSelect'>
+                                    <div className='backendmarkupLanguageSelect'>
                                         <select
                                             typeof='option'
                                             id='markupLanguage'
                                             select
-                                            className='markupLanguage'
+                                            className='backendmarkupLanguage'
                                             autoFocus
                                             autoComplete
                                             required
@@ -35,14 +34,14 @@ function Backend() {
                                 </div>
 
 
-                                <div className='stylingBody'>
+                                <div className='backendstylingBody'>
 
-                                    <div className='stylingSelect'>
+                                    <div className='backendstylingSelect'>
                                         <select
                                             typeof='option'
                                             id='stylingLanguage'
                                             select
-                                            className='stylingLanguage'
+                                            className='backendstylingLanguage'
                                             autoFocus
                                             autoComplete
                                             required
@@ -57,14 +56,14 @@ function Backend() {
                                 </div>
 
 
-                                <div className='programmingBody'>
+                                <div className='backendprogrammingBody'>
 
-                                    <div className='programmingSelect'>
+                                    <div className='backendprogrammingSelect'>
                                         <select
                                             typeof='option'
                                             id='programmingLanguage'
                                             select
-                                            className='programmingLanguage'
+                                            className='backendprogrammingLanguage'
                                             autoFocus
                                             autoComplete
                                             required
@@ -79,14 +78,14 @@ function Backend() {
                                 </div>
 
 
-                                <div className='libraryBody'>
+                                <div className='backendlibraryBody'>
 
-                                    <div className='librarySelect'>
+                                    <div className='backendlibrarySelect'>
                                         <select
                                             typeof='option'
                                             id='library'
                                             select
-                                            className='library'
+                                            className='backendlibrary'
                                             autoFocus
                                             autoComplete
                                             required
@@ -102,6 +101,9 @@ function Backend() {
                                 </div>
 
 
+                            </div>
+                            <div className='gateTechStackBody'>
+                                <button className='gateTechStackButton'>Gate Teck Stack</button>
                             </div>
 
                             <div className='backendDashboardAnswer'>

@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../../Navbar/Navbar'
 import "./FullStack.css"
 
 import fullstackImg from '../../../../images/stack/fullstack1.png'
@@ -7,7 +6,6 @@ import fullstackImg from '../../../../images/stack/fullstack1.png'
 function FullStack() {
     return (
         <div>
-            <Navbar />
             <div className='fullstackDashboard'>
                 <div className='fullstackDashboardBody'>
                     <div class="fullstackDashboardTitle">MY FULLSTACK TECH STACK</div>
@@ -15,14 +13,14 @@ function FullStack() {
                     <div className='fullstackDashboardContainer'>
                         <div className='fullstackDashboardLeftContainer'>
                             <div className='fullstackDashboardContent'>
-                                <div className='markupBody'>
+                                <div className='fullstackmarkupBody'>
 
-                                    <div className='markupLanguageSelect'>
+                                    <div className='fullstackmarkupLanguageSelect'>
                                         <select
                                             typeof='option'
                                             id='markupLanguage'
                                             select
-                                            className='markupLanguage'
+                                            className='fullstackmarkupLanguage'
                                             autoFocus
                                             autoComplete
                                             required
@@ -37,14 +35,14 @@ function FullStack() {
                                 </div>
 
 
-                                <div className='stylingBody'>
+                                <div className='fullstackstylingBody'>
 
                                     <div className='stylingSelect'>
                                         <select
                                             typeof='option'
                                             id='stylingLanguage'
                                             select
-                                            className='stylingLanguage'
+                                            className='fullstackstylingLanguage'
                                             autoFocus
                                             autoComplete
                                             required
@@ -59,14 +57,14 @@ function FullStack() {
                                 </div>
 
 
-                                <div className='programmingBody'>
+                                <div className='fullstackprogrammingBody'>
 
-                                    <div className='programmingSelect'>
+                                    <div className='fullstackprogrammingSelect'>
                                         <select
                                             typeof='option'
                                             id='programmingLanguage'
                                             select
-                                            className='programmingLanguage'
+                                            className='fullstackprogrammingLanguage'
                                             autoFocus
                                             autoComplete
                                             required
@@ -81,14 +79,14 @@ function FullStack() {
                                 </div>
 
 
-                                <div className='libraryBody'>
+                                <div className='fullstacklibraryBody'>
 
-                                    <div className='librarySelect'>
+                                    <div className='fullstacklibrarySelect'>
                                         <select
                                             typeof='option'
                                             id='library'
                                             select
-                                            className='library'
+                                            className='fullstacklibrary'
                                             autoFocus
                                             autoComplete
                                             required
@@ -104,6 +102,9 @@ function FullStack() {
                                 </div>
 
 
+                            </div>
+                            <div className='gateTechStackBody'>
+                                <button className='gateTechStackButton'>Gate Teck Stack</button>
                             </div>
 
                             <div className='fullstackDashboardAnswer'>
