@@ -3,7 +3,7 @@ import './Navbar.css';
 import logo from '../../images/logo.png';
 import Modal from '../../Components/Modal/Modal.js';
 
-const Navbar = () => {
+const Navbar = ({setSignedIn, signedIn, user}) => {
     const[openModal, setOpenModal] = useState(false);
     return (
         <div className='navbar'>
@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className={"nav-item"} onClick={()=>{setOpenModal(!openModal)}} >
                     LOGIN
                 </div>
-                {openModal &&  <Modal/>}
+                {openModal && !signedIn &&  <Modal setSignedIn={setSignedIn} signedIn={signedIn} user={user} setOpenModal={setOpenModal} />}
 
 
             </div>

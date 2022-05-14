@@ -5,15 +5,14 @@ import Login from '../Core/Login/Login'
 import Signup from '../Core/Signup/Signup'
 import ForgotPassword from '../Core/ForgotPassword/ForgotPassword';
 
-function Modal() {
+function Modal({setSignedIn, signedIn, user, setOpenModal}) {
   return (
     <div className={"modal-bg"}>
         <div className={"modal-body"}>
 
 
             
-            {/* <Login /> */}
-            <Signup />
+            {!signedIn?<Login user={user} setSignedIn={setSignedIn} setOpenModal={setOpenModal}  />:null}
             {/* <ForgotPassword /> */}
 
 

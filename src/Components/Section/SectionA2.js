@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import './SectionA2.css';
 import frontend from '../../images/frontend.jpg';
 import backend from '../../images/backend.png';
@@ -7,6 +8,7 @@ import fullstack from '../../images/fullstack.png';
 
 
 function SectionA2() {
+    const navigate = useNavigate();
     return (
         <div className='section-a2'>
             <h1 className='section-a2-heading'>What kind of website are you building?</h1>
@@ -23,9 +25,7 @@ function SectionA2() {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </div>
                     <div className="frontend-button tech-button">
-                        <div className='button'> 
-                            <a href="../Core/Dashboard/Frontend/Frontend.js">Click here</a>
-                        </div>
+                        <div className='button' onClick={() => navigate("/frontend") }>Click here </div>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ function SectionA2() {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </div>
                     <div className="backend-button tech-button">
-                        <div className='button'>Click here</div>
+                        <div className='button' onClick={() => navigate("/backend")}>Click here</div>
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@ function SectionA2() {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </div>
                     <div className="full-stack-button tech-button">
-                        <div className='button'>Click here</div>
+                        <div className='button' onClick={() => navigate("/fullstack")}>Click here</div>
                     </div>
                 </div>
             </div>
