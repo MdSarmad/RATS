@@ -28,15 +28,6 @@ const Cover = () => {
       <div className='footer'>
         <SectionA5/>
       </div>
-      <div className='frontend'>
-        <Frontend />
-      </div>
-      <div className='backend'>
-        <Backend />
-      </div>
-      <div className='fullstack'>
-        <FullStack />
-      </div>
       <div className='copy'>
         @copyright 2022 RATS . All rights reserved
       </div>
