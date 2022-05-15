@@ -19,28 +19,28 @@ function SectionA4() {
 
         <div className="faq2 faq">
           <div>
-            How can i find tech stack for my website
+            How can I find the tech stack for my website?
           </div>
           <div>
-          <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="image" />
           </div>
         </div>
 
         <div className="faq3 faq">
           <div>
-            Can i use tech stack recommended by this website?
+            Can I use the tech stack recommended by this website?
           </div>
           <div>
-          <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="image" />
           </div>
         </div>
-        
+
         <div className="faq4 faq">
           <div>
-            How this website suggests the tech stack?
+            How does this website suggests the tech stack?
           </div>
           <div>
-          <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="image" />
           </div>
         </div>
         <div className="faq5 faq">
@@ -48,7 +48,7 @@ function SectionA4() {
             Is it free?
           </div>
           <div>
-          <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="image" />
           </div>
         </div>
 

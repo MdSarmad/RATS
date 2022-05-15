@@ -1,23 +1,24 @@
-.fullstackDashboard{
+.fullstackDashboard {
     background-color: #add8e6;
 }
 
 
-.fullstackDashboardTitle{
+.fullstackDashboardTitle {
     text-align: center;
     padding: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
 }
 
-.fullstackDashboardContainer{
+.fullstackDashboardContainer {
     display: grid;
-    grid-template-columns:50% 50%;
+    grid-template-columns: 50% 50%;
     grid-gap: 20px;
     /* background-color: #2196F3; */
     padding: 10px;
 }
-.dashboard-fullstack-img{
+
+.dashboard-fullstack-img {
     width: 40vw;
     border-radius: 50%;
     margin-right: 3%;
@@ -25,43 +26,53 @@
     object-fit: cover;
     height: 35vw;
 }
-.fullstackDashboardContent{
+
+.fullstackDashboardContent {
     display: grid;
-    grid-template-columns:50% 50%;
+    grid-template-columns: 50% 50%;
     grid-gap: 20px;
     margin-top: 20px;
     /* background-color: #21f321; */
     padding: 10px;
 }
 
-.fullstackmarkupLanguageSelect,.fullstackprogrammingSelect,.fullstackstylingSelect,.fullstacklibrarySelect{
+.fullstackmarkupLanguageSelect,
+.fullstackprogrammingSelect,
+.fullstackstylingSelect,
+.fullstacklibrarySelect {
     padding: 20px;
     border: none;
 }
-.fullstackmarkupLanguage,.fullstackstylingLanguage,.fullstackprogrammingLanguage,.fullstacklibrary{
-    background-color: rgb(26, 212, 212);
+
+.fullstackmarkupLanguage,
+.fullstackstylingLanguage,
+.fullstackprogrammingLanguage,
+.fullstacklibrary {
+    background-color: white;
     height: 8vh;
-    width: 22vw; 
+    width: 22vw;
     padding: 15px;
-    font-size: 15px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: none;
 }
 
 
-.fullstackDashboardAnswer{
+.fullstackDashboardAnswer {
     padding: 25px;
 }
-.fullstackAnswer{
-    width: 44.5vw;
+
+.fullstackAnswer {
+    width: 45.3vw;
     height: 30vh;
     padding: 20px;
+    background-color: white;
     font: 1em sans-serif;
     resize: none;
     appearance: none;
     outline: 0;
-    background-color: antiquewhite;
 }
+
 select {
     display: block;
     font-size: larger;
@@ -69,19 +80,24 @@ select {
     outline: 0;
     overflow: hidden;
 }
-.gateTechStackBody{
+
+.gateTechStackBody {
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.gateTechStackButton{
+
+.gateTechStackButton {
     height: 5vh;
     width: 10vw;
-    background-color: dodgerblue;
+    font-size: medium;
+    background-color: #00ccff;
     cursor: pointer;
     border: none;
+    font-weight: bold;
 }
-.gateTechStackButton:hover{
+
+.gateTechStackButton:hover {
     background-color: blue;
     color: aliceblue;
 }

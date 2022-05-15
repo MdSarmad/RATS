@@ -73,6 +73,8 @@ function FullStack() {
                                             <option value={'javascript'}>Java Script</option>
                                             <option value={'Python'}>Python</option>
                                             <option value={'Java'}>Java</option>
+                                            <option value={'PHP'}>PHP</option>
+
                                         </select>
                                     </div>
 
@@ -96,6 +98,7 @@ function FullStack() {
                                             <option value={'React'}>React</option>
                                             <option value={'Vue'}>Vue</option>
                                             <option value={'React_Native'}>React Native</option>
+                                            <option value={'Lavarel'}>Lavarel</option>
                                         </select>
                                     </div>
 
@@ -104,11 +107,11 @@ function FullStack() {
 
                             </div>
                             <div className='gateTechStackBody'>
-                                <button className='gateTechStackButton'>Gate Teck Stack</button>
+                                <button className='gateTechStackButton'>Get Teck Stack</button>
                             </div>
 
                             <div className='fullstackDashboardAnswer'>
-                                <div  className='fullstackAnswer' />
+                                <div className='fullstackAnswer' />
                             </div>
 
                         </div>
