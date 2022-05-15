@@ -7,6 +7,7 @@
     justify-content: center;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .section-a3-reviews {
@@ -80,4 +81,37 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: #575757;
+}
+
+
+@media only screen and (max-width: 740px) {
+    .section-a3-reviews{
+        display: flex;
+        flex-direction: column;
+    }
+    .review1,.review2,.review3{
+        position: relative;
+        left: 20%;
+        width: 50vw;
+        height: 80vh;
+        margin: 50px;
+    }
+    .review1-text, .review2-text, .review3-text{
+        margin-top: 150px;
+        width: 40vw;
+    }
+    .ross-img{
+        width: 42vw;
+        height: 35vw;
+    }
+    .joey-img{
+        width: 42vw;
+        height: 35vw;
+    }
+    
+    .chandler-img{
+        width: 42vw;
+        height: 35vw;
+    }
+
 }
