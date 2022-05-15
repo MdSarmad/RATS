@@ -23,6 +23,7 @@ function App() {
           </>
           :null
         }
+        <Route path="*" element={<Cover/>} />
       </Routes>
     </Router>
   );

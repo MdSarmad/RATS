@@ -54,7 +54,6 @@ export const RatsProvider = ({children}) => {
       alert("Please Enter LOGOUT Button to Logout");
     }
     setOpenModal(false);
-    setSignedIn(true);
   }
 
   const rats = {

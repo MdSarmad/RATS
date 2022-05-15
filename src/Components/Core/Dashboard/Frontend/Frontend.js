@@ -25,9 +25,10 @@ function Frontend() {
                       required
                     >
                       <option value={''}>Markup Languages</option>
+                      <option value={'HTML'}>Are you kidding?</option>
+                      <option value={'HTML'}>Do you want to go back in time?</option>
                       <option value={'HTML'}>HTML</option>
-                      <option value={'XML'}>XML</option>
-
+                      <option value={'XHTML'}>Still you want something stringent, polished, and straightforward</option>
                     </select>
                   </div>
 
