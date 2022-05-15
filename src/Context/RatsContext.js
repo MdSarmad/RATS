@@ -1,18 +1,74 @@
 import React, {createContext, useState, useRef} from 'react';
+import { signup, logout, login, useAuth } from '../firebase/firebase';
 const RatsContext = createContext();
 
 export const RatsProvider = ({children}) => {
+  const [signupEmail, setSignupEmail] = useState();
+  const [signupPassword, setSignupPassword] = useState();
+  const [userEmail, setUserEmail] = useState("");
+  const [userPassword, setUserPassword] = useState("");
+  const [loading, setLoading] = useState(false);
   const [loginPopup, setLoginPopup] = useState(false);
   const [signUpPopup, setSignUpPopup] = useState(false);
   const [forgotPasswordPopup, setForgotPasswordPopup] = useState(false);
   const [signedIn, setSignedIn] = useState(false);
-  const[openModal, setOpenModal] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
+  const [wrongPasswordText,setWrongPasswordText]= useState("");
+  const currentUser = useAuth();
   const user = useRef({
     email: "admin@rats.com",
     password: "admin@rats"
   });
+  const handleSignup = async() => {
+    setLoading(true);
+      try {
+          await signup(signupEmail, signupPassword);
+          setOpenModal(false);
+          setSignedIn(true);
+      } catch {
+        alert("Please enter unregistered correct email");
+      }
+    setLoading(false);
+  }
+
+  const handleLogin = async() => {
+    setLoading(true);
+    try {
+      await login(userEmail, userPassword);
+      setUserEmail("");
+      setUserPassword("");
+    } catch {
+      alert("Please enter unregistered correct email");
+    }
+    setSignedIn(true);
+    setWrongPasswordText("");
+    setOpenModal(false);
+    setLoading(false);
+  }
+
+  const handleLogout = async() => {
+    setLoading(true);
+    try{
+      await logout();
+    } catch {
+      alert("Please Enter LOGOUT Button to Logout");
+    }
+    setOpenModal(false);
+    setSignedIn(true);
+  }
 
   const rats = {
+    loading,
+    currentUser,
+    handleSignup,
+    handleLogin,
+    userEmail,
+    setUserEmail,
+    userPassword,
+    setUserPassword,
+    handleLogout,
+    setSignupEmail,
+    setSignupPassword,
     loginPopup,
     setLoginPopup,
     signUpPopup,
@@ -23,7 +79,9 @@ export const RatsProvider = ({children}) => {
     setSignedIn,
     openModal,
     setOpenModal,
-    user
+    user,
+    wrongPasswordText,
+    setWrongPasswordText,
   };
 
   return (

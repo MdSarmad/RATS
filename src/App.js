@@ -9,7 +9,6 @@ import FullStack from './Components/Core/Dashboard/FullStack/FullStack';
 import './App.css';
 function App() {
   const {signedIn} = useContext(RatsContext);
-  console.log(signedIn);
   return (
     <Router>
       <Navbar/>

@@ -1,17 +1,21 @@
 import React, {useContext} from 'react';
+import { useNavigate } from 'react-router';
 import RatsContext from '../../Context/RatsContext';
 import './Navbar.css';
 import logo from '../../images/logo.png';
 import Modal from '../../Components/Modal/Modal.js';
 
 const Navbar = () => {
-    const {signedIn, openModal, setOpenModal, setSignedIn} = useContext(RatsContext);
+    const navigate = useNavigate();
+    const {signedIn, openModal, setOpenModal, setSignedIn, handleLogout} = useContext(RatsContext);
     // ()=>{setOpenModal(!openModal)}
     const logFunction = () => {
         if(!signedIn) {
             setOpenModal(!openModal);
         } else {
             setSignedIn(false);
+            handleLogout();
+            navigate("/");
         }
     }
     return (

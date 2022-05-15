@@ -12,7 +12,7 @@ function SectionA4() {
             What is this website for?
           </div>
           <div>
-            <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="down-arrow-img" />
           </div>
 
         </div>
@@ -22,7 +22,7 @@ function SectionA4() {
             How can I find the tech stack for my website?
           </div>
           <div>
-            <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="down-arrow-img" />
           </div>
         </div>
 
@@ -31,7 +31,7 @@ function SectionA4() {
             Can I use the tech stack recommended by this website?
           </div>
           <div>
-            <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="down-arrow-img" />
           </div>
         </div>
 
@@ -40,7 +40,7 @@ function SectionA4() {
             How does this website suggests the tech stack?
           </div>
           <div>
-            <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="down-arrow-img" />
           </div>
         </div>
         <div className="faq5 faq">
@@ -48,7 +48,7 @@ function SectionA4() {
             Is it free?
           </div>
           <div>
-            <img className="arrow-img" src={DownArrow} alt="image" />
+            <img className="arrow-img" src={DownArrow} alt="down-arrow-img" />
           </div>
         </div>
 

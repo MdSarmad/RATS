@@ -8,7 +8,7 @@ function FullStack() {
         <div>
             <div className='fullstackDashboard'>
                 <div className='fullstackDashboardBody'>
-                    <div class="fullstackDashboardTitle">MY FULLSTACK TECH STACK</div>
+                    <div className="fullstackDashboardTitle">MY FULLSTACK TECH STACK</div>
 
                     <div className='fullstackDashboardContainer'>
                         <div className='fullstackDashboardLeftContainer'>

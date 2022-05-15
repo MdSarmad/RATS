@@ -10,7 +10,7 @@ function SectionA1() {
         <p className='section-a1-para'>One platform where for all those who need guidance while choosing the right technolog stack for building their application</p>
       </div>
       <div className="section-a1-pic">
-        <img className="section1-img" src={Img} alt="image" />
+        <img className="section1-img" src={Img} alt="section1-img" />
       </div>
     </div>
   )
