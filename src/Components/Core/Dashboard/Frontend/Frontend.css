@@ -1,23 +1,24 @@
-.frontendDashboard{
+.frontendDashboard {
     background-color: #add8e6;
 }
 
 
-.frontendDashboardTitle{
+.frontendDashboardTitle {
     text-align: center;
     padding: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
 }
 
-.frontendDashboardContainer{
+.frontendDashboardContainer {
     display: grid;
-    grid-template-columns:50% 50%;
+    grid-template-columns: 50% 50%;
     grid-gap: 20px;
     /* background-color: #2196F3; */
     padding: 10px;
 }
-.dashboard-frontend-img{
+
+.dashboard-frontend-img {
     width: 40vw;
     border-radius: 50%;
     margin-right: 3%;
@@ -25,28 +26,37 @@
     object-fit: cover;
     height: 35vw;
 }
-.frontendDashboardContent{
+
+.frontendDashboardContent {
     display: grid;
-    grid-template-columns:50% 50%;
+    grid-template-columns: 50% 50%;
     grid-gap: 20px;
     margin-top: 10px;
     /* background-color: #21f321; */
     padding: 10px;
 }
 
-.markupLanguageSelect,.programmingSelect,.stylingSelect,.librarySelect{
+.markupLanguageSelect,
+.programmingSelect,
+.stylingSelect,
+.librarySelect {
     padding: 20px;
     border: none;
 }
-.markupLanguage,.stylingLanguage,.programmingLanguage,.library{
-    background-color: rgb(26, 212, 212);
+
+.markupLanguage,
+.stylingLanguage,
+.programmingLanguage,
+.library {
+    background-color: white;
     height: 8vh;
-    width: 22vw; 
+    width: 22vw;
     padding: 15px;
-    font-size: 15px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: none;
 }
+
 select {
     display: block;
     font-size: larger;
@@ -54,31 +64,37 @@ select {
     outline: 0;
     overflow: hidden;
 }
-.gateTechStackBody{
+
+.gateTechStackBody {
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.gateTechStackButton{
+
+.gateTechStackButton {
     height: 5vh;
     width: 10vw;
-    background-color: dodgerblue;
+    font-size: medium;
+    background-color: #00ccff;
     cursor: pointer;
     border: none;
+    font-weight: bold;
 }
-.gateTechStackButton:hover{
+
+.gateTechStackButton:hover {
     background-color: blue;
     color: aliceblue;
 }
 
-.frontendDashboardAnswer{
+.frontendDashboardAnswer {
     padding: 25px;
 }
-.frontendAnswer{
-    width: 44.5vw;
+
+.frontendAnswer {
+    width: 45.3vw;
     height: 30vh;
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: white;
     font: 1em sans-serif;
     resize: none;
     appearance: none;

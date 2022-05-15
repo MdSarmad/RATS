@@ -72,6 +72,7 @@ function Frontend() {
                       <option value={'javascript'}>Java Script</option>
                       <option value={'Python'}>Python</option>
                       <option value={'Java'}>Java</option>
+                      <option value={'PHP'}>PHP</option>
                     </select>
                   </div>
 
@@ -95,6 +96,7 @@ function Frontend() {
                       <option value={'React'}>React</option>
                       <option value={'Vue'}>Vue</option>
                       <option value={'React_Native'}>React Native</option>
+                      <option value={'Lavarel'}>Lavarel</option>
                     </select>
                   </div>
 
@@ -104,7 +106,7 @@ function Frontend() {
               </div>
 
               <div className='gateTechStackBody'>
-                <button className='gateTechStackButton'>Gate Teck Stack</button>
+                <button className='gateTechStackButton'>Get Teck Stack</button>
               </div>
 
               <div className='frontendDashboardAnswer'>
