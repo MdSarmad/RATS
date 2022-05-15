@@ -90,6 +90,7 @@ color: #939393;
 }
 .haveAnAccount:hover{
     color: #16f5ba;
+    cursor: pointer;
 }
 
 

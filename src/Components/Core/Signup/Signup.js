@@ -1,6 +1,13 @@
-import React from 'react'
+import React, {useContext} from 'react';
+import RatsContext from '../../../Context/RatsContext';
 import "./Signup.css"
 function Signup() {
+    const {setLoginPopup,setSignUpPopup, setForgotPasswordPopup} = useContext(RatsContext);
+    const haveAccount = () => {
+        setLoginPopup(true);
+        setForgotPasswordPopup(false);
+        setSignUpPopup(false);
+    }
   return (
         <div className="signupform">
             <div className='signupformBody'>
@@ -42,7 +49,7 @@ function Signup() {
                         </div>
                     </form>
                     <div haveAnAccountBody formstyle>
-                        <p> Already have <a href="/" className='haveAnAccount'>an account</a>.</p>
+                        <p> Already have <span className='haveAnAccount' onClick={haveAccount}>an account</span></p>
                     </div>
             </div>
         </div>

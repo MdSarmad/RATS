@@ -1,6 +1,13 @@
-import React from 'react'
+import React,{useContext} from 'react';
+import RatsContext from '../../../Context/RatsContext';
 import "./ForgotPassword.css"
 function ForgotPassword() {
+    const {setLoginPopup,setSignUpPopup, setForgotPasswordPopup} = useContext(RatsContext);
+    const newAccount = () => {
+        setLoginPopup(false);
+        setForgotPasswordPopup(false);
+        setSignUpPopup(true);
+    }
   return (
         <div className='forgotform'>
             <div className='forgotformBody'>
@@ -16,7 +23,7 @@ function ForgotPassword() {
                     </div>
                 </form>
                 <div className='haveAnAccountBody'>
-                    <p>First time? <a href='/' className='createAnAccount' >Create an account</a>.</p>
+                    <p>First time? <div className='createAnAccount' onClick={newAccount} >Create an account</div>.</p>
                 </div>
             </div>
         </div>

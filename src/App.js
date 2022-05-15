@@ -1,5 +1,6 @@
-import React, {useState,useRef} from 'react';
+import React, {useContext} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import RatsContext from './Context/RatsContext';
 import Navbar from './Components/Navbar/Navbar';
 import Cover from './Components/Cover/Cover';
 import Frontend from './Components/Core/Dashboard/Frontend/Frontend';
@@ -7,14 +8,11 @@ import Backend from './Components/Core/Dashboard/Backend/Backend';
 import FullStack from './Components/Core/Dashboard/FullStack/FullStack';
 import './App.css';
 function App() {
-  const [signedIn, setSignedIn] = useState(false);
-  const user = useRef({
-    email: "admin@rats.com",
-    password: "admin@rats"
-  })
+  const {signedIn} = useContext(RatsContext);
+  console.log(signedIn);
   return (
     <Router>
-      <Navbar setSignedIn={setSignedIn} signedIn={signedIn} user={user}/>
+      <Navbar/>
       <Routes>
         <Route exact path="/" element={<Cover />} />
         { signedIn 
@@ -27,7 +25,6 @@ function App() {
           :null
         }
       </Routes>
-
     </Router>
   );
 }

@@ -113,7 +113,7 @@ function FullStack() {
 
                         </div>
                         <div className='fullstackDashboardRightContainer'>
-                            <img className="dashboard-fullstack-img" src={fullstackImg} alt="image" />
+                            <img className="dashboard-fullstack-img" src={fullstackImg} alt="fullstack-img" />
                         </div>
                     </div>
 

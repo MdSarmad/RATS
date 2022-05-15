@@ -254,3 +254,8 @@ color: #939393;
     }
 }
 
+.create-account {
+    color: #0000ff;
+    cursor: pointer;
+    margin-left: 10px;
+}

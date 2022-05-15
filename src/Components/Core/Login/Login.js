@@ -1,7 +1,9 @@
-import React,{useState} from 'react'
+import React,{useState, useContext} from 'react';
+import RatsContext from '../../../Context/RatsContext';
 import "./Login.css"
 
-function Login({user,setSignedIn,setOpenModal}) {
+function Login() {
+    const {user,setSignedIn,setOpenModal, setLoginPopup, setSignUpPopup, setForgotPasswordPopup} = useContext(RatsContext);
     const [userEmail, setUserEmail] = useState("");
     const [userPassword, setUserPassword] = useState("");
     const [wrongPasswordText,setWrongPasswordText]= useState("");
@@ -17,6 +19,16 @@ function Login({user,setSignedIn,setOpenModal}) {
             console.log(userEmail,user.current.email);
             console.log(userPassword,user.current.password);
         }
+    }
+    const createAccount = () => {
+        setLoginPopup(false);
+        setForgotPasswordPopup(false);
+        setSignUpPopup(true);
+    }
+    const resetPassword = () => {
+        setLoginPopup(false);
+        setForgotPasswordPopup(true);
+        setSignUpPopup(false);
     }
   return (
     <>
@@ -38,7 +50,7 @@ function Login({user,setSignedIn,setOpenModal}) {
                                 </div>
 
                                 <div class="forgotPassword">
-                                    <p>Forgot Password?</p>
+                                    <p onClick={resetPassword}>Forgot Password?</p>
                                 </div>
                             </div>
 
@@ -46,7 +58,7 @@ function Login({user,setSignedIn,setOpenModal}) {
                             <div className="wrong-password">{wrongPasswordText}</div>
                             <div class="noAccount formstyle">
                                 <span>Don't have an account?</span>
-                                <a href="/">Create an account</a>
+                                <span className='create-account' onClick={createAccount}>Create an account</span>
                             </div>
                         </form>
                     </div>
