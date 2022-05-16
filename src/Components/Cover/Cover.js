@@ -8,6 +8,9 @@ import SectionA5 from '../Section/SectionA5';
 // import Frontend from '../Core/Dashboard/Frontend/Frontend';
 // import Backend from '../Core/Dashboard/Backend/Backend';
 // import FullStack from '../Core/Dashboard/FullStack/FullStack';
+import Accordion from '../Accordian/Accordian';
+
+
 
 import './Cover.css';
 const Cover = () => {
@@ -23,7 +26,7 @@ const Cover = () => {
         <SectionA3/>
       </div>
       <div className='faqs'>
-        <SectionA4/>
+        <SectionA4 />
       </div>
       <div className='footer'>
         <SectionA5/>
