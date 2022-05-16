@@ -117,13 +117,8 @@ function Frontend() {
 
               </div>
 
-<<<<<<< HEAD
-              <div className='frontendgateTechStackBody'>
-                <div className='frontendgateTechStackButton' onClick={getFrontendTechStack}>Get Teck Stack</div>
-=======
               <div className='getTechStackBody'>
                 <div className='getTechStackButton' onClick={getFrontendTechStack}>Get Teck Stack</div>
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
               </div>
 
               <div className='frontendDashboardAnswer'>
