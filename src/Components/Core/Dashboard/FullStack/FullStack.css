@@ -1,5 +1,6 @@
 .fullstackDashboard {
     background-color: #add8e6;
+    height: 89.1vh;
 }
 
 
@@ -13,9 +14,9 @@
 .fullstackDashboardContainer {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 20px;
+    /* grid-gap: 20px; */
     /* background-color: #2196F3; */
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .dashboard-fullstack-img {
@@ -24,16 +25,17 @@
         margin-right: 3%;
         box-sizing: border-box;
         object-fit: cover;
-        height: 28.5vw;
+        height: 28vw;
 }
 
 .fullstackDashboardContent {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 20px;
-    margin-top: 20px;
+    grid-gap: 15px;
+    margin-top: 8px;
     /* background-color: #21f321; */
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .fullstackmarkupLanguageSelect,
@@ -42,6 +44,7 @@
 .fullstacklibrarySelect {
     padding: 20px;
     border: none;
+    box-sizing: border-box;
 }
 
 .fullstackmarkupLanguage,
@@ -55,6 +58,7 @@
     font-size: 17px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: none;
+    box-sizing: border-box;
 }
 
 
@@ -64,7 +68,7 @@
 
 .fullstackAnswer {
     width: 45.3vw;
-    height: 30vh;
+    height: 21.5vh;
     padding-top: 20px;
     background-color: white;
     font: 1em sans-serif;
@@ -80,24 +84,121 @@ select {
     outline: 0;
     overflow: hidden;
 }
-
-.gateTechStackBody {
-    align-items: center;
+.fullstackgateTechStackBody{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.gateTechStackButton {
-    height: 5vh;
-    width: 10vw;
+
+.fullstackgateTechStackButton {
+    height: 8vh;
+    width: 15vw;
     font-size: medium;
     background-color: #00ccff;
     cursor: pointer;
     border: none;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.gateTechStackButton:hover {
+.fullstackgateTechStackButton:hover {
     background-color: blue;
     color: aliceblue;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .fullstackDashboardContainer {    
+        width: 100vw;
+    }
+    .fullstackgateTechStackBody{
+        height: 10vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 740px) {
+    body{
+        width: 713px;
+    }
+    
+    .fullstackDashboardContainer {
+        display: flex;
+        background-color: #add8e6;
+        flex-direction: column-reverse;
+        width: 713px;
+
+    }
+
+    .fullstackDashboardContent {
+        display: flex;
+        flex-direction: column;
+        width: 713px;
+        justify-content: center;
+        align-items: center;
+        background-color: #add8e6;
+    }
+
+    .dashboard-fullstack-img {
+        width: 70vw;
+        border-radius: 50%;
+        margin-left: 100px;
+        box-sizing: border-box;
+        object-fit: cover;
+        height: 70vh;
+    }
+
+    .markupLanguageSelect,
+    .programmingSelect,
+    .stylingSelect,
+    .librarySelect {
+        padding: 20px;
+        border: none;
+    }
+
+    .markupLanguage,
+    .stylingLanguage,
+    .programmingLanguage,
+    .library {
+        background-color: white;
+        height: 8vh;
+        width: 40vw;
+        padding: 15px;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: none;
+    }
+
+    .fullstackgateTechStackBody {
+        width: 713px;
+    }
+
+    .fullstackgateTechStackButton {
+        height: 7.5vh;
+        width: 32vw;
+        
+    }
+    .fullstackDashboardAnswer {
+        padding: 45px;
+    }
+    
+    .fullstackAnswer {
+        width: 620px;
+        height: 40vh;
+        padding-top: 20px;
+        background-color: white;
+        font: 1em sans-serif;
+        resize: none;
+        appearance: none;
+        outline: 0;
+    }
 }

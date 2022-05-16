@@ -1,6 +1,6 @@
 .backendDashboard {
     background-color: #add8e6;
-
+    height: 89.1vh;
 }
 
 
@@ -14,9 +14,9 @@
 .backendDashboardContainer {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 20px;
+    /* grid-gap: 20px;
     /* background-color: #2196F3; */
-    padding: 10px;
+    /* padding: 10px;  */
 }
 
 .dashboard-backend-img {
@@ -37,6 +37,7 @@
     margin-top: 10px;
     /* background-color: #21f321; */
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .backendmarkupLanguageSelect,
@@ -45,6 +46,7 @@
 .backendlibrarySelect {
     padding: 20px;
     border: none;
+    box-sizing: border-box;
 }
 
 .backendmarkupLanguage,
@@ -58,6 +60,39 @@
     font-size: 17px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: none;
+    box-sizing: border-box;
+}
+select {
+    display: block;
+    font-size: larger;
+    padding: 10px;
+    outline: 0;
+    overflow: hidden;
+}
+.backendgateTechStackBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.backendgateTechStackButton {
+    height: 8vh;
+    width: 15vw;
+    font-size: medium;
+    background-color: #00ccff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.backendgateTechStackButton:hover {
+    background-color: blue;
+    color: aliceblue;
 }
 
 .backendDashboardAnswer {
@@ -66,7 +101,7 @@
 
 .backendAnswer {
     width: 45.3vw;
-    height: 30vh;
+    height: 21.5vh;
     padding-top: 20px;
     background-color: white;
     font: 1em sans-serif;
@@ -75,31 +110,94 @@
     outline: 0;
 }
 
-select {
-    display: block;
-    font-size: larger;
-    padding: 10px;
-    outline: 0;
-    overflow: hidden;
+@media only screen and (max-width: 1000px) {
+    .backendDashboardContainer {    
+        width: 100vw;
+    }
+    .backendgateTechStackBody{
+        height: 10vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.gateTechStackBody {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+
+@media only screen and (max-width: 740px) {
+    body{
+        width: 713px;
+    }
+    
+    .backendDashboardContainer {
+        display: flex;
+        background-color: #add8e6;
+        flex-direction: column-reverse;
+        width: 713px;
+
+    }
+
+    .backendDashboardContent {
+        display: flex;
+        flex-direction: column;
+        width: 713px;
+        justify-content: center;
+        align-items: center;
+        background-color: #add8e6;
+    }
+
+    .dashboard-backend-img {
+        width: 70vw;
+        border-radius: 50%;
+        margin-left: 100px;
+        box-sizing: border-box;
+        object-fit: cover;
+        height: 70vh;
+    }
+
+    .markupLanguageSelect,
+    .programmingSelect,
+    .stylingSelect,
+    .librarySelect {
+        padding: 20px;
+        border: none;
+    }
+
+    .markupLanguage,
+    .stylingLanguage,
+    .programmingLanguage,
+    .library {
+        background-color: white;
+        height: 8vh;
+        width: 40vw;
+        padding: 15px;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: none;
+    }
+
+    .backendgateTechStackBody {
+        width: 713px;
+    }
+
+    .backendgateTechStackButton {
+        height: 7.5vh;
+        width: 32vw;
+        
+    }
+    .backendDashboardAnswer {
+        padding: 45px;
+    }
+    
+    .backendAnswer {
+        width: 620px;
+        height: 40vh;
+        padding-top: 20px;
+        background-color: white;
+        font: 1em sans-serif;
+        resize: none;
+        appearance: none;
+        outline: 0;
+    }
 }
 
-.gateTechStackButton {
-    height: 5vh;
-    width: 10vw;
-    font-size: medium;
-    background-color: #00ccff;
-    cursor: pointer;
-    border: none;
-    font-weight: bold;
-}
-
-.gateTechStackButton:hover {
-    background-color: blue;
-    color: aliceblue;
-}

@@ -140,37 +140,38 @@
     .tech-section{
         display: flex;
         flex-direction: column;
+        width: 70vw;
     }
     .frontend-tech{
         position: relative;
         left: 20%;
-        width: 50vw;
+        width: 60vw;
         height: 85vh;
         margin: 50px;
     }
     .frontend-img{
-        width: 45vw;
+        width: 55vw;
     }
     .backend-tech{
         position: relative;
         left: 20%;
-        width: 50vw;
+        width: 60vw;
         height: 85vh;
         margin: 50px;
 
     }
     .backend-img{
-        width: 45vw;
+        width: 55vw;
     }
     .full-stack-tech{
         position: relative;
         left: 20%;
-        width: 50vw;
+        width: 60vw;
         height: 85vh;
         margin: 50px;
     }
     .fullstack-img{
-        width: 45vw;
+        width: 55vw;
     }
     .section-a2-heading{
         
@@ -178,5 +179,8 @@
         text-align: center;
         padding: 20px;
     }
-
+    .text{
+        padding: 30px;
+        font-size: 17px;
+    }
 }

@@ -106,8 +106,8 @@ function FullStack() {
 
 
                             </div>
-                            <div className='gateTechStackBody'>
-                                <button className='gateTechStackButton'>Get Teck Stack</button>
+                            <div className='fullstackgateTechStackBody'>
+                                <button className='fullstackgateTechStackButton'>Get Teck Stack</button>
                             </div>
 
                             <div className='fullstackDashboardAnswer'>
