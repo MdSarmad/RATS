@@ -1,6 +1,6 @@
 .frontendDashboard {
     background-color: #add8e6;
-    height: 89.1vh;
+    height: 90vh;
 }
 
 
@@ -76,7 +76,7 @@ select {
 }
 
 .frontendgetTechStackButton {
-    height: 8vh;
+    height: 10vh;
     width: 15vw;
     font-size: medium;
     background-color: #00ccff;
@@ -94,8 +94,27 @@ select {
     color: aliceblue;
 }
 
+.frontendPrintButton {
+    height: 8vh;
+    width: 15vw;
+    margin-left: 10px;
+    font-size: medium;
+    background-color: #00ccff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontendPrintButton:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
 .frontendDashboardAnswer {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
 
 }
@@ -108,11 +127,13 @@ select {
     appearance: none;
     outline: 0;
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 45% 45%;
     grid-template-rows: 20%;
     grid-column-gap: 10%;
-    padding: 5%;
+    grid-row-gap: 18%;
+    padding: 2%;
     box-sizing: border-box;
+    line-height: 10px;
 }
 
 .frontendAnswerLabel{

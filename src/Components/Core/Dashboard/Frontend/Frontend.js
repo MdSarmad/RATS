@@ -18,66 +18,66 @@ function Frontend() {
 
   const getFrontendTechStack = () => {
     if (webSize === "SS") {
-    setMarkLang("HTML");
-    setProgLang("JavaScript");
-    setWebStyle("CSS");
-    setWebStyleLib("BootStrap");
-    setProgLib("");
-    setOtherLib("");
-    setRelDb("");
-    setNonRelDb("");
-    } else if(webSize === "SM" || webSize === "LS" || webSize === "LM") {
+      setMarkLang("HTML");
+      setProgLang("JavaScript");
+      setWebStyle("CSS");
+      setWebStyleLib("BootStrap");
+      setProgLib("");
+      setOtherLib("");
+      setRelDb("");
+      setNonRelDb("");
+    } else if (webSize === "SM" || webSize === "LS" || webSize === "LM") {
       setMarkLang("HTML");
       setWebStyle("CSS");
       setProgLang("JavaScript");
-      if(webArchitecture === "MVC") {
+      if (webArchitecture === "MVC") {
         setProgLib("Angular.js");
         setWebStyleLib("Angular Material");
-        if(webType === "static") {
-          if(webRender === "SSR") {
+        if (webType === "static") {
+          if (webRender === "SSR") {
             setOtherLib("");
           } else {
             setOtherLib("Scully");
           }
         }
-        if(webType === "dynamic") {
-          if(webRender === 'SSR') {
+        if (webType === "dynamic") {
+          if (webRender === 'SSR') {
             setOtherLib("Angular Universal");
           } else {
             setOtherLib("");
           }
         }
       }
-      if(webArchitecture === "MVVM") {
+      if (webArchitecture === "MVVM") {
         setProgLib("React.js");
         setWebStyleLib("Material UI");
-        if(webType === "static") {
-          if(webRender === "SSR") {
+        if (webType === "static") {
+          if (webRender === "SSR") {
             setOtherLib("");
           } else {
             setOtherLib("Gatsby");
           }
         }
-        if(webType === "dynamic") {
-          if(webRender === 'SSR') {
+        if (webType === "dynamic") {
+          if (webRender === 'SSR') {
             setOtherLib("Next.js");
           } else {
             setOtherLib("");
           }
         }
       }
-      if(webArchitecture === "FLUX") {
+      if (webArchitecture === "FLUX") {
         setProgLib("Vue.js");
         setWebStyleLib("Vuetify");
-        if(webType === "static") {
-          if(webRender === "SSR") {
+        if (webType === "static") {
+          if (webRender === "SSR") {
             setOtherLib("");
           } else {
             setOtherLib("Gridsome");
           }
         }
-        if(webType === "dynamic") {
-          if(webRender === 'SSR') {
+        if (webType === "dynamic") {
+          if (webRender === 'SSR') {
             setOtherLib("Nuxt.js");
           } else {
             setOtherLib("");
@@ -196,8 +196,8 @@ function Frontend() {
 
               <div className='frontendgetTechStackBody'>
                 <div className='frontendgetTechStackButton' onClick={getFrontendTechStack}>Get Teck Stack</div>
+                <div className='frontendPrintButton' onClick={() => window.print()}>Print</div>
               </div>
-
               <div className='frontendDashboardAnswer'>
                 <div className='frontendAnswer'>
                   <div className="frontendAnswerBox">
@@ -234,7 +234,6 @@ function Frontend() {
                   </div>
                 </div>
               </div>
-
             </div>
 
             <div className='frontendDashboardRightContainer'>

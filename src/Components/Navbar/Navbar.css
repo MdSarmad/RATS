@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
+  width: 90px;
   font-size: 17px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -42,7 +42,8 @@
   background-color: rgb(23, 27, 29);
   color: white;
   height: 70px;
-  width: 90px;
+  width: 92px;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;

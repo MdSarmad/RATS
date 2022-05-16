@@ -24,10 +24,10 @@ const Navbar = () => {
                 <img className="logo" src={logo} alt="logo-img" />
             </div>
             <div className="navbar-right">
-                <div className={"nav-item"} >HOME</div>
-                <div className={"nav-item"} >SERVICE</div>
-                <div className={"nav-item"} >CONTACT</div>
-                <div className={"nav-item"} >ABOUT</div>
+                <div className={"nav-item"} onClick={() => navigate("/")}>HOME</div>
+                <div className={"nav-item"} onClick={() => navigate("/frontend")}>FRONTEND</div>
+                <div className={"nav-item"} onClick={() => navigate("/backend")}>BACKEND</div>
+                <div className={"nav-item"} onClick={() => navigate("/fullstack")}>FULL STACK</div>
 
                 <div className={"nav-item"} onClick={logFunction} >
                     {signedIn?"LOGOUT":"LOGIN"}
