@@ -117,8 +117,8 @@ function Frontend() {
 
               </div>
 
-              <div className='getTechStackBody'>
-                <div className='getTechStackButton' onClick={getFrontendTechStack}>Get Teck Stack</div>
+              <div className='frontendgetTechStackBody'>
+                <div className='frontendgetTechStackButton' onClick={getFrontendTechStack}>Get Teck Stack</div>
               </div>
 
               <div className='frontendDashboardAnswer'>

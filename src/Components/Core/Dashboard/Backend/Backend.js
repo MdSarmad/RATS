@@ -102,8 +102,8 @@ function Backend() {
 
 
                             </div>
-                            <div className='getTechStackBody'>
-                                <button className='getTechStackButton'>Get Teck Stack</button>
+                            <div className='backendgetTechStackBody'>
+                                <button className='backendgetTechStackButton'>Get Teck Stack</button>
                             </div>
 
                             <div className='backendDashboardAnswer'>

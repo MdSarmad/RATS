@@ -1,11 +1,12 @@
 .backendDashboard {
     background-color: #add8e6;
+    height: 89.1vh;
 }
 
 
 .backendDashboardTitle {
     text-align: center;
-    padding: 30px;
+    padding: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
 }
@@ -13,8 +14,8 @@
 .backendDashboardContainer {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 20px;
-    padding: 10px;
+    /* grid-gap: 20px;
+    padding: 10px; */
 }
 
 .dashboard-backend-img {
@@ -23,15 +24,15 @@
     margin-right: 3%;
     box-sizing: border-box;
     object-fit: cover;
-    height: 28.5vw;
+    height: 28vw;
 
 }
 
 .backendDashboardContent {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 20px;
-    margin-top: 10px;
+    grid-template-columns: 45% 45%;
+    grid-gap: 15px;
+    margin-top: 8px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -52,8 +53,8 @@
     background-color: white;
     height: 8vh;
     width: 22vw;
-    padding: 15px;
-    font-size: 17px;
+    padding: 10px;
+    font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: none;
     box-sizing: border-box;
@@ -61,18 +62,19 @@
 select {
     display: block;
     font-size: larger;
-    padding: 10px;
+    /* padding: 10px; */
     outline: 0;
     overflow: hidden;
 }
-.backendgateTechStackBody{
+
+
+.backendgetTechStackBody {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-
-.backendgateTechStackButton {
+.backendgetTechStackButton {
     height: 8vh;
     width: 15vw;
     font-size: medium;
@@ -83,20 +85,19 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.backendgateTechStackButton:hover {
+.backendgetTechStackButton:hover {
     background-color: blue;
     color: aliceblue;
 }
-
 .backendDashboardAnswer {
     padding: 25px;
+
 }
 
 .backendAnswer {
-    width: 45.3vw;
+    width: 45vw;
     height: 21.5vh;
     padding-top: 20px;
     background-color: white;
@@ -106,11 +107,14 @@ select {
     outline: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+
+
+
+@media only screen and (max-width: 950px) {
     .backendDashboardContainer {    
         width: 100vw;
     }
-    .backendgateTechStackBody{
+    .backendgetTechStackBody{
         height: 10vh;
         width: 50vw;
         display: flex;
@@ -119,23 +123,80 @@ select {
     }
 }
 
-.getTechStackBody {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
+@media only screen and (max-width: 740px) {
+    body{
+        width: 713px;
+    }
+    
+    .backendDashboardContainer {
+        display: flex;
+        background-color: #add8e6;
+        flex-direction: column-reverse;
+        width: 713px;
 
-.getTechStackButton {
-    height: 5vh;
-    width: 10vw;
-    font-size: medium;
-    background-color: #00ccff;
-    cursor: pointer;
-    border: none;
-    font-weight: bold;
-}
+    }
 
-.getTechStackButton:hover {
-    background-color: blue;
-    color: aliceblue;
+    .backendDashboardContent {
+        display: flex;
+        flex-direction: column;
+        width: 713px;
+        justify-content: center;
+        align-items: center;
+        background-color: #add8e6;
+    }
+
+    .dashboard-backend-img {
+        width: 70vw;
+        border-radius: 50%;
+        margin-left: 100px;
+        box-sizing: border-box;
+        object-fit: cover;
+        height: 70vh;
+    }
+
+    .markupLanguageSelect,
+    .programmingSelect,
+    .stylingSelect,
+    .librarySelect {
+        padding: 20px;
+        border: none;
+    }
+
+    .markupLanguage,
+    .stylingLanguage,
+    .programmingLanguage,
+    .library {
+        background-color: white;
+        height: 8vh;
+        width: 40vw;
+        padding: 15px;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: none;
+    }
+
+    .backendgetTechStackBody {
+        width: 713px;
+    }
+
+    .backendgetTechStackButton {
+        height: 7.5vh;
+        width: 32vw;
+
+    }
+
+    .backendDashboardAnswer {
+        padding: 45px;
+    }
+
+    .backendAnswer {
+        width: 620px;
+        height: 40vh;
+        padding-top: 20px;
+        background-color: white;
+        font: 1em sans-serif;
+        resize: none;
+        appearance: none;
+        outline: 0;
+    }
 }
