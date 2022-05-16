@@ -95,19 +95,35 @@ select {
 }
 
 .frontendDashboardAnswer {
-    padding: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
 
 }
 
 .frontendAnswer {
     width: 45vw;
-    height: 21.5vh;
-    padding-top: 20px;
+    height: 33vh;
     background-color: white;
-    font: 1em sans-serif;
     resize: none;
     appearance: none;
     outline: 0;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 20%;
+    grid-column-gap: 10%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.frontendAnswerLabel{
+    font-weight: bold;
+}
+.frontendAnswerValue{
+    margin-left: 2%;
+}
+
+.frontendAnswerBox{
+    display: flex;
 }
 
 

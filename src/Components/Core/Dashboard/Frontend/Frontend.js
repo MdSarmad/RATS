@@ -7,9 +7,86 @@ function Frontend() {
   const [webRender, setWebRender] = useState("");
   const [webType, setWebType] = useState("");
   const [webArchitecture, setWebArchitecture] = useState("");
+  const [markLang, setMarkLang] = useState("");
+  const [webStyle, setWebStyle] = useState("");
+  const [webStyleLib, setWebStyleLib] = useState("");
+  const [progLang, setProgLang] = useState("");
+  const [progLib, setProgLib] = useState("");
+  const [otherLib, setOtherLib] = useState("");
+  const [relDb, setRelDb] = useState("");
+  const [nonRelDb, setNonRelDb] = useState("");
 
   const getFrontendTechStack = () => {
-    console.log(webSize, webRender, webType, webArchitecture);
+    if (webSize === "SS") {
+    setMarkLang("HTML");
+    setProgLang("JavaScript");
+    setWebStyle("CSS");
+    setWebStyleLib("BootStrap");
+    setProgLib("");
+    setOtherLib("");
+    setRelDb("");
+    setNonRelDb("");
+    } else if(webSize === "SM" || webSize === "LS" || webSize === "LM") {
+      setMarkLang("HTML");
+      setWebStyle("CSS");
+      setProgLang("JavaScript");
+      if(webArchitecture === "MVC") {
+        setProgLib("Angular.js");
+        setWebStyleLib("Angular Material");
+        if(webType === "static") {
+          if(webRender === "SSR") {
+            setOtherLib("");
+          } else {
+            setOtherLib("Scully");
+          }
+        }
+        if(webType === "dynamic") {
+          if(webRender === 'SSR') {
+            setOtherLib("Angular Universal");
+          } else {
+            setOtherLib("");
+          }
+        }
+      }
+      if(webArchitecture === "MVVM") {
+        setProgLib("React.js");
+        setWebStyleLib("Material UI");
+        if(webType === "static") {
+          if(webRender === "SSR") {
+            setOtherLib("");
+          } else {
+            setOtherLib("Gatsby");
+          }
+        }
+        if(webType === "dynamic") {
+          if(webRender === 'SSR') {
+            setOtherLib("Next.js");
+          } else {
+            setOtherLib("");
+          }
+        }
+      }
+      if(webArchitecture === "FLUX") {
+        setProgLib("Vue.js");
+        setWebStyleLib("Vuetify");
+        if(webType === "static") {
+          if(webRender === "SSR") {
+            setOtherLib("");
+          } else {
+            setOtherLib("Gridsome");
+          }
+        }
+        if(webType === "dynamic") {
+          if(webRender === 'SSR') {
+            setOtherLib("Nuxt.js");
+          } else {
+            setOtherLib("");
+          }
+        }
+      }
+      setRelDb("MySQL with Node.js (optional)");
+      setNonRelDb("Firebase (optional)");
+    }
   }
 
   return (
@@ -122,7 +199,40 @@ function Frontend() {
               </div>
 
               <div className='frontendDashboardAnswer'>
-                <div className='frontendAnswer' />
+                <div className='frontendAnswer'>
+                  <div className="frontendAnswerBox">
+                    <div className="frontendAnswerLabel">Markup Language : </div>
+                    <div className="frontendAnswerValue">{markLang}</div>
+                  </div>
+                  <div className="frontendAnswerBox">
+                    <div className="frontendAnswerLabel">Style : </div>
+                    <div className="frontendAnswerValue">{webStyle}</div>
+                  </div>
+                  <div className="frontendAnswerBox">
+                    <div className="frontendAnswerLabel">Style Library : </div>
+                    <div className="frontendAnswerValue">{webStyleLib}</div>
+                  </div>
+                  <div className="frontendAnswerBox">
+                    <div className="frontendAnswerLabel">Programming Language : </div>
+                    <div className="frontendAnswerValue">{progLang}</div>
+                  </div>
+                  <div className="frontendAnswerBox">
+                    <div className="frontendAnswerLabel">Framework/Library : </div>
+                    <div className="frontendAnswerValue">{progLib}</div>
+                  </div>
+                  <div className="frontendAnswerBox">
+                    <div className="frontendAnswerLabel">Other Library : </div>
+                    <div className="frontendAnswerValue">{otherLib}</div>
+                  </div>
+                  <div className="frontendAnswerBox">
+                    <div className="frontendAnswerLabel">Relational Database : </div>
+                    <div className="frontendAnswerValue">{relDb}</div>
+                  </div>
+                  <div className="frontendAnswerBox">
+                    <div className="frontendAnswerLabel">Non Relational Database : </div>
+                    <div className="frontendAnswerValue">{nonRelDb}</div>
+                  </div>
+                </div>
               </div>
 
             </div>
