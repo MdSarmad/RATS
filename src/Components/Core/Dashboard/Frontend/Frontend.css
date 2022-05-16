@@ -69,13 +69,13 @@ select {
     overflow: hidden;
 }
 
-.gateTechStackBody {
+.getTechStackBody {
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.frontendgateTechStackButton {
+.frontendgetTechStackButton {
     height: 8vh;
     width: 15vw;
     font-size: medium;
@@ -85,14 +85,14 @@ select {
     font-weight: bold;
 }
 
-.frontendgateTechStackButton:hover {
+.frontendgetTechStackButton:hover {
     background-color: blue;
     color: aliceblue;
 }
 
 .frontendDashboardAnswer {
     padding: 25px;
-    
+
 }
 
 .frontendAnswer {
@@ -108,10 +108,11 @@ select {
 
 
 @media only screen and (max-width: 950px) {
-    .frontendDashboardContainer {    
+    .frontendDashboardContainer {
         width: 100vw;
     }
-    .frontendgateTechStackBody {
+
+    .frontendgetTechStackBody {
         height: 10vh;
         width: 90vw;
         display: flex;
@@ -171,20 +172,21 @@ select {
         border: none;
     }
 
-    .frontendgateTechStackBody {
+    .frontendgetTechStackBody {
         width: 713px;
     }
 
-    .frontendgateTechStackButton {
+    .frontendgetTechStackButton {
         height: 7.5vh;
         width: 32vw;
-        
+
     }
+
     .frontendDashboardAnswer {
         padding: 45px;
-        
+
     }
-    
+
     .frontendAnswer {
         width: 620px;
         height: 40vh;
@@ -194,6 +196,6 @@ select {
         resize: none;
         appearance: none;
         outline: 0;
-        
+
     }
 }
