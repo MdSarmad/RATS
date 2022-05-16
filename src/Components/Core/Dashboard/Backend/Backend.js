@@ -7,8 +7,6 @@ function Backend() {
 
             <div className='backendDashboard'>
                 <div className='backendDashboardBody'>
-                    <div className="backendDashboardTitle">MY BACKEND TECH STACK</div>
-
                     <div className='backendDashboardContainer'>
                         <div className='backendDashboardLeftContainer'>
                             <div className='backendDashboardContent'>
@@ -114,6 +112,7 @@ function Backend() {
 
                         </div>
                         <div className='backendDashboardRightContainer'>
+                        <div className="backendDashboardTitle">MY BACKEND TECH STACK</div>
                             <img className="dashboard-backend-img" src={backendImg} alt="image" />
                         </div>
                     </div>

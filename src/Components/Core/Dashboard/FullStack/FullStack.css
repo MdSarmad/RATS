@@ -19,12 +19,12 @@
 }
 
 .dashboard-fullstack-img {
-    width: 40vw;
-    border-radius: 50%;
-    margin-right: 3%;
-    box-sizing: border-box;
-    object-fit: cover;
-    height: 35vw;
+    width: 38vw;
+        border-radius: 50%;
+        margin-right: 3%;
+        box-sizing: border-box;
+        object-fit: cover;
+        height: 28.5vw;
 }
 
 .fullstackDashboardContent {
@@ -65,7 +65,7 @@
 .fullstackAnswer {
     width: 45.3vw;
     height: 30vh;
-    padding: 20px;
+    padding-top: 20px;
     background-color: white;
     font: 1em sans-serif;
     resize: none;

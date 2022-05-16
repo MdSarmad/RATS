@@ -7,8 +7,6 @@ function Frontend() {
     <div>
       <div className='frontendDashboard'>
         <div className='frontendDashboardBody'>
-          <div class="frontendDashboardTitle">MY FRONTEND TECH STACK</div>
-
           <div className='frontendDashboardContainer'>
             <div className='frontendDashboardLeftContainer'>
               <div className='frontendDashboardContent'>
@@ -107,7 +105,7 @@ function Frontend() {
               </div>
 
               <div className='gateTechStackBody'>
-                <button className='gateTechStackButton'>Get Teck Stack</button>
+                <button className='frontendgateTechStackButton'>Get Teck Stack</button>
               </div>
 
               <div className='frontendDashboardAnswer'>
@@ -115,7 +113,9 @@ function Frontend() {
               </div>
 
             </div>
+
             <div className='frontendDashboardRightContainer'>
+              <div class="frontendDashboardTitle">MY FRONTEND TECH STACK</div>
               <img className="dashboard-frontend-img" src={frontendImg} alt="image" />
             </div>
           </div>
