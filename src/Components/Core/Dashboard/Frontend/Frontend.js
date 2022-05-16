@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import "./Frontend.css";
 import frontendImg from '../../../../images/stack/fullstack6.png'
 
@@ -9,7 +9,7 @@ function Frontend() {
   const [webArchitecture, setWebArchitecture] = useState("");
 
   const getFrontendTechStack = () => {
-    console.log(webSize,webRender,webType,webArchitecture);
+    console.log(webSize, webRender, webType, webArchitecture);
   }
 
   return (
@@ -54,7 +54,7 @@ function Frontend() {
                       select
                       className='stylingLanguage web-render-class'
                       value={webRender}
-                      onChange={(e)=>setWebRender(e.target.value)}
+                      onChange={(e) => setWebRender(e.target.value)}
                       autoFocus
                       autoComplete
                       required
@@ -77,7 +77,7 @@ function Frontend() {
                       select
                       className='programmingLanguage web-type-class'
                       value={webType}
-                      onChange={(e)=>setWebType(e.target.value)}
+                      onChange={(e) => setWebType(e.target.value)}
                       autoFocus
                       autoComplete
                       required
@@ -100,7 +100,7 @@ function Frontend() {
                       select
                       className='library web-arch-class'
                       value={webArchitecture}
-                      onChange={(e)=>setWebArchitecture(e.target.value)}
+                      onChange={(e) => setWebArchitecture(e.target.value)}
                       autoFocus
                       autoComplete
                       required
@@ -117,8 +117,8 @@ function Frontend() {
 
               </div>
 
-              <div className='gateTechStackBody'>
-                <div className='gateTechStackButton' onClick={getFrontendTechStack}>Get Teck Stack</div>
+              <div className='getTechStackBody'>
+                <div className='getTechStackButton' onClick={getFrontendTechStack}>Get Teck Stack</div>
               </div>
 
               <div className='frontendDashboardAnswer'>

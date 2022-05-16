@@ -1,6 +1,5 @@
 .backendDashboard {
     background-color: #add8e6;
-
 }
 
 
@@ -15,12 +14,10 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
-    /* background-color: #2196F3; */
     padding: 10px;
 }
 
 .dashboard-backend-img {
-
     width: 38vw;
     border-radius: 50%;
     margin-right: 3%;
@@ -35,7 +32,6 @@
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
     margin-top: 10px;
-    /* background-color: #21f321; */
     padding: 10px;
 }
 
@@ -83,13 +79,13 @@ select {
     overflow: hidden;
 }
 
-.gateTechStackBody {
+.getTechStackBody {
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.gateTechStackButton {
+.getTechStackButton {
     height: 5vh;
     width: 10vw;
     font-size: medium;
@@ -99,7 +95,7 @@ select {
     font-weight: bold;
 }
 
-.gateTechStackButton:hover {
+.getTechStackButton:hover {
     background-color: blue;
     color: aliceblue;
 }
