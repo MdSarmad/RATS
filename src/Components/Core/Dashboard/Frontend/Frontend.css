@@ -68,24 +68,15 @@ select {
     outline: 0;
     overflow: hidden;
 }
-<<<<<<< HEAD
-.frontendgateTechStackBody{
-=======
 
 .getTechStackBody {
     align-items: center;
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-<<<<<<< HEAD
-
-.frontendgateTechStackButton {
-=======
 .frontendgetTechStackButton {
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
     height: 8vh;
     width: 15vw;
     font-size: medium;
@@ -121,20 +112,12 @@ select {
 }
 
 
-<<<<<<< HEAD
-@media only screen and (max-width: 1000px) {
-    .frontendDashboardContainer {    
-        width: 100vw;
-    }
-    .frontendgateTechStackBody{
-=======
 @media only screen and (max-width: 950px) {
     .frontendDashboardContainer {
         width: 100vw;
     }
 
     .frontendgetTechStackBody {
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
         height: 10vh;
         width: 50vw;
         display: flex;
@@ -208,10 +191,6 @@ select {
 
     .frontendDashboardAnswer {
         padding: 45px;
-<<<<<<< HEAD
-=======
-
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
     }
 
     .frontendAnswer {
@@ -223,9 +202,5 @@ select {
         resize: none;
         appearance: none;
         outline: 0;
-<<<<<<< HEAD
-=======
-
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
     }
 }

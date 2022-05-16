@@ -1,9 +1,5 @@
 .backendDashboard {
     background-color: #add8e6;
-<<<<<<< HEAD
-    height: 89.1vh;
-=======
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
 }
 
 
@@ -17,14 +13,8 @@
 .backendDashboardContainer {
     display: grid;
     grid-template-columns: 50% 50%;
-<<<<<<< HEAD
-    /* grid-gap: 20px;
-    /* background-color: #2196F3; */
-    /* padding: 10px;  */
-=======
     grid-gap: 20px;
     padding: 10px;
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
 }
 
 .dashboard-backend-img {
@@ -129,86 +119,6 @@ select {
     }
 }
 
-<<<<<<< HEAD
-
-@media only screen and (max-width: 740px) {
-    body{
-        width: 713px;
-    }
-    
-    .backendDashboardContainer {
-        display: flex;
-        background-color: #add8e6;
-        flex-direction: column-reverse;
-        width: 713px;
-
-    }
-
-    .backendDashboardContent {
-        display: flex;
-        flex-direction: column;
-        width: 713px;
-        justify-content: center;
-        align-items: center;
-        background-color: #add8e6;
-    }
-
-    .dashboard-backend-img {
-        width: 70vw;
-        border-radius: 50%;
-        margin-left: 100px;
-        box-sizing: border-box;
-        object-fit: cover;
-        height: 70vh;
-    }
-
-    .markupLanguageSelect,
-    .programmingSelect,
-    .stylingSelect,
-    .librarySelect {
-        padding: 20px;
-        border: none;
-    }
-
-    .markupLanguage,
-    .stylingLanguage,
-    .programmingLanguage,
-    .library {
-        background-color: white;
-        height: 8vh;
-        width: 40vw;
-        padding: 15px;
-        font-size: 15px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        border: none;
-    }
-
-    .backendgateTechStackBody {
-        width: 713px;
-    }
-
-    .backendgateTechStackButton {
-        height: 7.5vh;
-        width: 32vw;
-        
-    }
-    .backendDashboardAnswer {
-        padding: 45px;
-    }
-    
-    .backendAnswer {
-        width: 620px;
-        height: 40vh;
-        padding-top: 20px;
-        background-color: white;
-        font: 1em sans-serif;
-        resize: none;
-        appearance: none;
-        outline: 0;
-    }
-}
-
-=======
 .getTechStackBody {
     align-items: center;
     display: flex;
@@ -229,4 +139,3 @@ select {
     background-color: blue;
     color: aliceblue;
 }
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6

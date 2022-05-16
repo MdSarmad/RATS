@@ -14,44 +14,24 @@
 .fullstackDashboardContainer {
     display: grid;
     grid-template-columns: 50% 50%;
-<<<<<<< HEAD
-    /* grid-gap: 20px; */
-    /* background-color: #2196F3; */
-    /* padding: 10px; */
-=======
     grid-gap: 20px;
     padding: 10px;
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
 }
 
 .dashboard-fullstack-img {
     width: 38vw;
-<<<<<<< HEAD
-        border-radius: 50%;
-        margin-right: 3%;
-        box-sizing: border-box;
-        object-fit: cover;
-        height: 28vw;
-=======
     border-radius: 50%;
     margin-right: 3%;
     box-sizing: border-box;
     object-fit: cover;
     height: 28.5vw;
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
 }
 
 .fullstackDashboardContent {
     display: grid;
     grid-template-columns: 50% 50%;
-<<<<<<< HEAD
-    grid-gap: 15px;
-    margin-top: 8px;
-    /* background-color: #21f321; */
-=======
     grid-gap: 20px;
     margin-top: 20px;
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
     padding: 10px;
     box-sizing: border-box;
 }
@@ -102,28 +82,17 @@ select {
     outline: 0;
     overflow: hidden;
 }
-<<<<<<< HEAD
-.fullstackgateTechStackBody{
-=======
 
 .getTechStackBody {
     align-items: center;
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-<<<<<<< HEAD
-
-.fullstackgateTechStackButton {
-    height: 8vh;
-    width: 15vw;
-=======
 .getTechStackButton {
     height: 5vh;
     width: 10vw;
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
     font-size: medium;
     background-color: #00ccff;
     cursor: pointer;
@@ -135,11 +104,7 @@ select {
 
 }
 
-<<<<<<< HEAD
-.fullstackgateTechStackButton:hover {
-=======
 .getTechStackButton:hover {
->>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
     background-color: blue;
     color: aliceblue;
 }
