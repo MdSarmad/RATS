@@ -22,8 +22,8 @@ function ForgotPassword() {
                         <button id="sub_btn" type="submit" className='forgotButton formstyle'>Send password reset email</button>
                     </div>
                 </form>
-                <div className='haveAnAccountBody'>
-                    <p>First time? <div className='createAnAccount' onClick={newAccount} >Create an account</div>.</p>
+                <div className='forgotAnAccountBody'>
+                    <p>First time? <span className='forgotcreateAnAccount' onClick={newAccount} >Create an account</span>.</p>
                 </div>
             </div>
         </div>

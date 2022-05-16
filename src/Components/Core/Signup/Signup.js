@@ -18,20 +18,20 @@ function Signup() {
   return (
         <div className="signupform">
             <div className='signupformBody'>
-                    <h2 className='signupformTitle'>Join us</h2>
-                    <h5 className='signupformSubTitle'>Create your personal account</h5>
+                    <p className='signupformTitle'>Join us</p>
+                    <p className='signupformSubTitle'>Create your personal account</p>
                     <form action="/">
-                        {/*
+                        
                             <div className='firstNameBody formstyle'>
                                 <label>First Name</label><br/>
-                                <input type="text" name="first_name" id="first_name" placeholder="First Name" class="FirstNameInput formstyle" required />
+                                <input type="text" name="first_name" id="first_name" placeholder="First Name" class="FirstNameInput formstyle"  />
                             </div>
 
                             <div className='lastNameBody formstyle'>
                                 <label>Last Name</label><br/>
-                                <input type="text" name="last_name" id="last_name" placeholder="Last Name" className="LastNameInput formstyle" required />
+                                <input type="text" name="last_name" id="last_name" placeholder="Last Name" className="LastNameInput formstyle"  />
                             </div>
-                        */}
+                       
 
                         <div className='emailBody formstyle'>
                             <label>Email address</label><br/>
@@ -59,8 +59,8 @@ function Signup() {
                             <div className='signupButton' id="sub_btn" onClick={handleSignup}>Register</div>
                         </div>
                     </form>
-                    <div className="haveAnAccountBody formstyle">
-                        <p> Already have <span className='haveAnAccount' onClick={haveAccount}>an account</span></p>
+                    <div haveAnAccountBody formstyle>
+                        <p> Already have<span className='haveAnAccount' onClick={haveAccount}>an account.</span></p>
                     </div>
             </div>
         </div>

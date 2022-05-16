@@ -7,6 +7,7 @@
     justify-content: center;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .tech-section {
@@ -16,19 +17,19 @@
 
 .frontend-tech {
     width: 30vw;
-    height: 70vh;
+    height: 75vh;
     background-color: #add8e6;
 }
 
 .backend-tech {
     width: 30vw;
-    height: 70vh;
+    height: 75vh;
     background-color: #add8e6;
 }
 
 .full-stack-tech {
     width: 30vw;
-    height: 70vh;
+    height: 75vh;
     background-color: #add8e6;
 }
 
@@ -75,4 +76,107 @@
 .text{
     padding: 15px;
     font-family: 'Arial';
+}
+@media only screen and (max-width: 1150px) {
+    
+    .frontend-tech{
+        height: 78vh;     
+    }
+    
+    .backend-tech{
+        height: 78vh;  
+
+    }
+    
+    .full-stack-tech{
+        height: 78vh; 
+    }
+    
+}
+@media only screen and (max-width: 950px) {
+    
+    .frontend-tech{
+        height: 85vh;     
+    }
+    
+    .backend-tech{
+        height: 85vh;   
+
+    }
+    
+    .full-stack-tech{
+        height: 85vh; 
+    } 
+    .button{
+        padding: 8px;
+        background-color:#2177c7;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }   
+}
+@media only screen and (max-width: 800px) {
+    
+    .frontend-tech{
+        height: 85vh;     
+    }
+    
+    .backend-tech{
+        height: 85vh;   
+
+    }
+    
+    .full-stack-tech{
+        height: 85vh; 
+    }
+    .button{
+        padding: 8px;
+        background-color:#2177c7;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }   
+}
+
+@media only screen and (max-width: 740px) {
+    .tech-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .frontend-tech{
+        position: relative;
+        left: 20%;
+        width: 50vw;
+        height: 85vh;
+        margin: 50px;
+    }
+    .frontend-img{
+        width: 45vw;
+    }
+    .backend-tech{
+        position: relative;
+        left: 20%;
+        width: 50vw;
+        height: 85vh;
+        margin: 50px;
+
+    }
+    .backend-img{
+        width: 45vw;
+    }
+    .full-stack-tech{
+        position: relative;
+        left: 20%;
+        width: 50vw;
+        height: 85vh;
+        margin: 50px;
+    }
+    .fullstack-img{
+        width: 45vw;
+    }
+    .section-a2-heading{
+        
+        display: flex;
+        text-align: center;
+        padding: 20px;
+    }
+
 }

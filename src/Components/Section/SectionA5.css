@@ -2,11 +2,10 @@
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
-    padding: 6.5%;
 }
 .categories-one, .categories-two, .categories-three, .categories-four {
     font: 1.5em sans-serif;
-    padding: 20px;
+    margin: 50px 50px;
     color: aqua;
 }
 .categories1{
@@ -16,4 +15,24 @@
     padding-bottom: 40px;
     font-size: medium;
     color: rgb(233, 223, 223);
+}
+@media only screen and (max-width: 740px) {
+    .section-a5{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .categories-one{
+        margin-top: 70px;
+    }
+    .categories-one, .categories-two, .categories-three, .categories-four {
+
+        margin-left: 200px;
+    }
+    .categories1, .categories2, .categories3, .categories4 {
+        width: 40vw;
+        margin: 0;
+    }
+
+
 }
