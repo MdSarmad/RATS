@@ -102,8 +102,13 @@ function Backend() {
 
 
                             </div>
+<<<<<<< HEAD
                             <div className='backendgateTechStackBody'>
                                 <button className='backendgateTechStackButton'>Get Teck Stack</button>
+=======
+                            <div className='getTechStackBody'>
+                                <button className='getTechStackButton'>Get Teck Stack</button>
+>>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
                             </div>
 
                             <div className='backendDashboardAnswer'>
@@ -112,7 +117,7 @@ function Backend() {
 
                         </div>
                         <div className='backendDashboardRightContainer'>
-                        <div className="backendDashboardTitle">MY BACKEND TECH STACK</div>
+                            <div className="backendDashboardTitle">MY BACKEND TECH STACK</div>
                             <img className="dashboard-backend-img" src={backendImg} alt="image" />
                         </div>
                     </div>

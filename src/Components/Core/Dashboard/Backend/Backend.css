@@ -1,6 +1,9 @@
 .backendDashboard {
     background-color: #add8e6;
+<<<<<<< HEAD
     height: 89.1vh;
+=======
+>>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
 }
 
 
@@ -14,13 +17,17 @@
 .backendDashboardContainer {
     display: grid;
     grid-template-columns: 50% 50%;
+<<<<<<< HEAD
     /* grid-gap: 20px;
     /* background-color: #2196F3; */
     /* padding: 10px;  */
+=======
+    grid-gap: 20px;
+    padding: 10px;
+>>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
 }
 
 .dashboard-backend-img {
-
     width: 38vw;
     border-radius: 50%;
     margin-right: 3%;
@@ -35,7 +42,6 @@
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
     margin-top: 10px;
-    /* background-color: #21f321; */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -123,6 +129,7 @@ select {
     }
 }
 
+<<<<<<< HEAD
 
 @media only screen and (max-width: 740px) {
     body{
@@ -201,3 +208,25 @@ select {
     }
 }
 
+=======
+.getTechStackBody {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.getTechStackButton {
+    height: 5vh;
+    width: 10vw;
+    font-size: medium;
+    background-color: #00ccff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.getTechStackButton:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+>>>>>>> d01ea4b161fccd5ec944cc2ae677ef3d4433f8b6
