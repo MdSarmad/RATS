@@ -32,6 +32,9 @@ function SectionA2() {
                 {/* backend */}
 
                 <div className="backend-tech">
+                    <div className='commingSoon'>
+                        <button className='commingSoonButton'>Comming soon</button>
+                    </div>
                     <div className="backend-logo tech-logo">
                         <img className="backend-img" src={backend} alt="backend-img" />
                     </div>
@@ -47,6 +50,9 @@ function SectionA2() {
                 {/* fullstack */}
 
                 <div className="full-stack-tech">
+                <div className='commingSoon'>
+                        <button className='commingSoonButton'>Comming soon</button>
+                    </div>
                     <div className="full-stack-logo tech-logo">
                         <img src={fullstack} className="fullstack-img" alt="fullstack-img"  />
                     </div>

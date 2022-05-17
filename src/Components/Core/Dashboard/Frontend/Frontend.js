@@ -93,7 +93,6 @@ function Frontend() {
     <div>
       <div className='frontendDashboard'>
         <div className='frontendDashboardBody'>
-          <div class="frontendDashboardTitle">MY FRONTEND TECH STACK</div>
           <div className='frontendDashboardContainer'>
             <div className='frontendDashboardLeftContainer'>
               <div className='frontendDashboardContent'>
@@ -201,35 +200,35 @@ function Frontend() {
               <div className='frontendDashboardAnswer'>
                 <div className='frontendAnswer'>
                   <div className="frontendAnswerBox">
-                    <div className="frontendAnswerLabel">Markup Language : </div>
-                    <div className="frontendAnswerValue">{markLang}</div>
+                    <div className="frontendAnswerLabel markup">Markup Language </div>
+                    <div className="frontendAnswerValue markup">{markLang}</div>
                   </div>
                   <div className="frontendAnswerBox">
-                    <div className="frontendAnswerLabel">Style : </div>
+                    <div className="frontendAnswerLabel">Style </div>
                     <div className="frontendAnswerValue">{webStyle}</div>
                   </div>
                   <div className="frontendAnswerBox">
-                    <div className="frontendAnswerLabel">Style Library : </div>
+                    <div className="frontendAnswerLabel">Style Library</div>
                     <div className="frontendAnswerValue">{webStyleLib}</div>
                   </div>
                   <div className="frontendAnswerBox">
-                    <div className="frontendAnswerLabel">Programming Language : </div>
+                    <div className="frontendAnswerLabel"> Programming Language </div>
                     <div className="frontendAnswerValue">{progLang}</div>
                   </div>
                   <div className="frontendAnswerBox">
-                    <div className="frontendAnswerLabel">Framework/Library : </div>
+                    <div className="frontendAnswerLabel">Framework </div>
                     <div className="frontendAnswerValue">{progLib}</div>
                   </div>
                   <div className="frontendAnswerBox">
-                    <div className="frontendAnswerLabel">Other Library : </div>
+                    <div className="frontendAnswerLabel">Other Library </div>
                     <div className="frontendAnswerValue">{otherLib}</div>
                   </div>
                   <div className="frontendAnswerBox">
-                    <div className="frontendAnswerLabel">Relational Database : </div>
+                    <div className="frontendAnswerLabel">Relational Database</div>
                     <div className="frontendAnswerValue">{relDb}</div>
                   </div>
                   <div className="frontendAnswerBox">
-                    <div className="frontendAnswerLabel">Non Relational Database : </div>
+                    <div className="frontendAnswerLabel">Non Relational Database</div>
                     <div className="frontendAnswerValue">{nonRelDb}</div>
                   </div>
                 </div>
@@ -237,6 +236,7 @@ function Frontend() {
             </div>
 
             <div className='frontendDashboardRightContainer'>
+              <div class="frontendDashboardTitle">MY FRONTEND TECH STACK</div>
               <img className="dashboard-frontend-img" src={frontendImg} alt="dashboard-frontend-img" />
             </div>
           </div>

@@ -95,6 +95,7 @@
         height: 78vh; 
     }
     
+    
 }
 @media only screen and (max-width: 950px) {
     
@@ -115,7 +116,8 @@
         background-color:#2177c7;
         cursor: pointer;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }   
+    }
+      
 }
 @media only screen and (max-width: 800px) {
     
@@ -136,7 +138,8 @@
         background-color:#2177c7;
         cursor: pointer;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }   
+    }  
+    
 }
 
 @media only screen and (max-width: 740px) {
@@ -186,4 +189,20 @@
         padding: 30px;
         font-size: 17px;
     }
+    
+    
+}
+
+
+
+.commingSoon{
+    z-index: 80;
+    position: absolute;
+}
+.commingSoonButton{
+    height: 1.5vw;
+    width: 8vw;
+    background-color: #1a5d9c;
+    color: rgb(250, 240, 240);
+    border-style:inherit;
 }
