@@ -113,7 +113,7 @@ function Backend() {
                         </div>
                         <div className='backendDashboardRightContainer'>
                             <div className="backendDashboardTitle">MY BACKEND TECH STACK</div>
-                            <img className="dashboard-backend-img" src={backendImg} alt="image" />
+                            <img className="dashboard-backend-img" src={backendImg} alt="backend-img" />
                         </div>
                     </div>
 
