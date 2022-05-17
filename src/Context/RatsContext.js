@@ -43,7 +43,7 @@ export const RatsProvider = ({children}) => {
     } catch {
       alert("Please enter unregistered correct email");
       setWrongPasswordText("Wrong Email or Password");
-      setSignedIn(true);
+      setSignedIn(false);
       setOpenModal(true);
     }
     setLoading(false);
