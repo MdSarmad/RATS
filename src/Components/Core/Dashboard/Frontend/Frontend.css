@@ -20,12 +20,12 @@
 }
 
 .dashboard-frontend-img {
-    width: 38vw;
+    width: 40vw;
     border-radius: 50%;
     margin-right: 3%;
     box-sizing: border-box;
     object-fit: cover;
-    height: 28vw;
+    height: 35vw;
 }
 
 .frontendDashboardContent {
@@ -42,7 +42,7 @@
 .programmingSelect,
 .stylingSelect,
 .librarySelect {
-    padding: 15px;
+    padding: 10px;
     border: none;
     box-sizing: border-box;
 }
@@ -52,9 +52,9 @@
 .programmingLanguage,
 .library {
     background-color: white;
-    height: 8vh;
+    height: 7vh;
     width: 22vw;
-    padding: 10px;
+    padding: 8px;
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: none;
@@ -70,14 +70,19 @@ select {
 }
 
 .frontendgetTechStackBody {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 15px;
+    /* background-color: #21f321; */
+    padding: 8px;
+    box-sizing: border-box;
 }
 
 .frontendgetTechStackButton {
-    height: 10vh;
-    width: 15vw;
+   
+    height: 7vh;
+    width: 22vw;
+    margin-left: 12px;
     font-size: medium;
     background-color: #00ccff;
     cursor: pointer;
@@ -95,8 +100,8 @@ select {
 }
 
 .frontendPrintButton {
-    height: 8vh;
-    width: 15vw;
+    height: 7vh;
+    width: 22vw;
     margin-left: 10px;
     font-size: medium;
     background-color: #00ccff;
@@ -114,15 +119,14 @@ select {
 }
 
 .frontendDashboardAnswer {
-    margin-top: 10px;
     margin-left: 20px;
 
 }
 
 .frontendAnswer {
-    width: 45vw;
-    height: 33vh;
-    background-color: white;
+    width: 44.7vw;
+    height: 52.5vh;
+    background-color: rgb(217, 225, 228);
     resize: none;
     appearance: none;
     outline: 0;
@@ -130,7 +134,7 @@ select {
     grid-template-columns: 45% 45%;
     grid-template-rows: 20%;
     grid-column-gap: 10%;
-    grid-row-gap: 18%;
+    grid-row-gap: 8%;
     padding: 2%;
     box-sizing: border-box;
     line-height: 10px;
@@ -143,9 +147,7 @@ select {
     margin-left: 2%;
 }
 
-.frontendAnswerBox{
-    display: flex;
-}
+
 
 
 @media only screen and (max-width: 950px) {
@@ -231,12 +233,30 @@ select {
 
     .frontendAnswer {
         width: 620px;
-        height: 40vh;
+        height: 66vh;
         padding-top: 20px;
         background-color: white;
         font: 1em sans-serif;
         resize: none;
         appearance: none;
         outline: 0;
+        box-sizing: border-box;
+        padding: 10px;
     }
+}
+
+.frontendAnswerLabel , .frontendAnswerValue{
+    margin-top: 20px;
+    box-sizing: border-box;
+    min-width: 100px;
+   
+
+}
+.frontendAnswerValue{
+    min-width: 200px;
+    
+}
+.frontendDashboardAnswer2{
+    width: 70vw;
+    padding: 30px;
 }
