@@ -37,12 +37,15 @@ export const RatsProvider = ({children}) => {
       await login(userEmail, userPassword);
       setUserEmail("");
       setUserPassword("");
+      setSignedIn(true);
+      setWrongPasswordText("");
+      setOpenModal(false);
     } catch {
       alert("Please enter unregistered correct email");
+      setWrongPasswordText("Wrong Email or Password");
+      setSignedIn(true);
+      setOpenModal(true);
     }
-    setSignedIn(true);
-    setWrongPasswordText("");
-    setOpenModal(false);
     setLoading(false);
   }
 
