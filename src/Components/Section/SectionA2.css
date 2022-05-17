@@ -94,6 +94,14 @@
     .full-stack-tech{
         height: 78vh; 
     }
+    .commingSoon{
+        background-color: #1a5d9c;
+        color: rgb(250, 240, 240);
+        height: 3.7vw;
+        width: 10vw;
+
+    }
+    
     
     
 }
@@ -116,6 +124,13 @@
         background-color:#2177c7;
         cursor: pointer;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .commingSoon{
+        background-color: #1a5d9c;
+        color: rgb(250, 240, 240);
+        height: 5vw;
+        width: 10vw;
+
     }
       
 }
@@ -189,6 +204,13 @@
         padding: 30px;
         font-size: 17px;
     }
+    .commingSoon{
+        background-color: #1a5d9c;
+        color: rgb(250, 240, 240);
+        height: 5.2vw;
+        width: 10vw;
+
+    }
     
     
 }
@@ -201,8 +223,8 @@
 }
 .commingSoonButton{
     height: 1.5vw;
-    width: 8vw;
+    width: 9vw;
     background-color: #1a5d9c;
     color: rgb(250, 240, 240);
-    border-style:inherit;
+    border-style: inherit;
 }
