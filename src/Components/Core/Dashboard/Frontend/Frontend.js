@@ -89,8 +89,14 @@ function Frontend() {
     }
   }
 
+  const displayMLCode = (e) => {
+    e.preventDefault();
+    window.open("https://colab.research.google.com/drive/1R0dGU0weCmxnXUio_52d5F_iY8zs6ijb?usp=sharing");
+  }
+
   return (
     <div>
+    <buttton className="displayML" onClick={displayMLCode}>Display ML</buttton>
       <div className='frontendDashboard'>
         <div className='frontendDashboardBody'>
           <div className='frontendDashboardContainer'>

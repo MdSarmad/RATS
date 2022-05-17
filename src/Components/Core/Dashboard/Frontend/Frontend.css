@@ -260,3 +260,19 @@ select {
     width: 70vw;
     padding: 30px;
 }
+
+.displayML {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #00ccff;
+}
+
+.displayML:hover{
+    background-color: #41d2f7;
+    cursor: pointer;
+    padding: 11px 21px;
+    box-sizing: border-box;
+}
